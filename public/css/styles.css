@@ -1,0 +1,38 @@
+html {
+    font-size: 1rem;
+}
+
+#manu-img {
+  /*width: 100%;height:100%;*/
+  /*object-fit: cover;*/
+  overflow: hidden;
+}
+
+@media (min-width: 576px) {
+    html {
+      font-size: 1.1rem;
+    }
+}
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 1.5rem;
+    }
+    
+  }
+  
+
+/* Transcriptions */
+[rubricated="true"] {
+    color: red;
+  }
+
+  /* Expansions */
+  span[data-toggle="tooltip"] {
+    font-weight: 600;
+  }
+
+  [dropCap] {
+    font-size: xx-large;
+    font-weight: 300;
+  }
