@@ -1,7 +1,7 @@
 
 /* Controls flipping through the manuscript exhibit page. */
 
-var currPage = 10;
+var currPage = 8;
 var currLetter = 'R'
 
 window.onload = function() { currPage -= 0.5; currLetter = (currLetter == 'R' ? 'V' : 'R');  this.nextPage() };
