@@ -1,5 +1,28 @@
 html {
     font-size: 1rem;
+    
+}
+
+/* Open dropdown menus on hover */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.dropdown-menu {
+  transition: 1s;
+  top: 80%!important;
+  background-color:rgba(121, 114, 104, 1)!important;
+}
+.dropdown-item {
+  transition: 0.3s;
+  color:rgba(255, 255, 255, 0.7)!important;
+}
+.dropdown-item:hover {
+  color: white;
+  background-color:  rgb(83, 78, 71)!important;
 }
 
 /* Account for the fixed navbar */
@@ -12,6 +35,14 @@ body {
   /*width: 100%;height:100%;*/
   /*object-fit: cover;*/
   overflow: hidden;
+}
+
+/* Make the nav bar a little sleeker */
+.nav-item {
+  transition: 0.3s;
+}
+.nav-item:hover {
+  color: white;
 }
 
 .icon-raised {

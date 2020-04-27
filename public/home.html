@@ -27,62 +27,91 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar"> <!-- bg-dark-->
-      <a class="navbar-brand my-auto" href="#">
-        <img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45" class="d-inline-block rounded icon-raised" alt="">
-        Carleton Compound Manuscript</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav ml-auto">
-          <li><a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a></li>
-          <li></li><a class="nav-item nav-link" href="manuscript.html">Manuscript</a></li>
-          <li></li><a class="nav-item nav-link" href="about.html">About</a></li>
+  <nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar">
+    <!-- bg-dark-->
+    <a class="navbar-brand my-auto" href="#">
+      <img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45"
+        class="d-inline-block rounded icon-raised" alt="">
+      Carleton Compound Manuscript</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ml-auto">
+        <li><a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link">Manuscript <b
+              class="caret"></b></a>
 
-        </ul>
-      </div>
-    </nav>
-    <!-- Page content -->
-    <div class="container-sm">
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="manuscript.html">Transcription</a>
+            <a class="dropdown-item" href="introduction.html">Introduction</a>
+            <a class="dropdown-item" href="physicalDescription.html">Physical Description</a>
+            <a class="dropdown-item" href="contents.html">Contents</a>
+          </div>
 
-      <img src="/img/manuscript-front.jpg" class="img-thumbnail w-50 my-4 mx-auto d-block" alt="Manuscript open at first page">
+        </li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link">About <b class="caret"></b></a>
 
-      <h3>Welcome to Carleton’s Compound Manuscript!</h3>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="edition.html">Edition</a>
+            <a class="dropdown-item" href="#">Notes</a>
+          </div>
 
-      <p>
-        This digital edition of Ottawa, Carleton University Library, Archives and Research Collection MS. 1 (identified here as
-        the Carleton Compound manuscript) is presented here in three parts:
-      </p>
-      
-      <ul>
-          <li>A transcription of the manuscript’s text with adjacent images of each folium,</li> 
-          <li> A codicological analysis of the manuscript focusing on its physical composition and palaeography,</li>
-          <li>and an analysis of the manuscript’s contents</li>
+        </li>
+        <li><a class="nav-item nav-link" href="index.html">Index</a></li>
       </ul>
-      
-      
-      <p>These are meant to aid with the further research and to make Carleton’s oldest manuscript available for study.</p>
-      
-      <p>
-        Although this project in many ways follows the traditional standard of manuscript editions, it was born digital to
-        address the problems that come with the printed edition. These were chiefly access issues and the limitations to the
-        presentation of information. I discuss these challenges and particularities that come with digital projects in <a
-            href="">How to Read This Edition in Part 2: Edition.</a>
-        To follow the process I took to undertake this project, and the decisions that were made along the way, including apps
-        used, find the project roadmap in the final two sections of Part 2: Edition.
-      </p>
-      
-      <p>
-        You can also find the code for this website, and the xml files produced for the transcription as well as the code parser
-        for the Transkribus files on my Github.
-      </p>
-      
-      <p>
-        Disclaimer: The final stages of this project were written under quarantine due to COVID-19 which prematurely ended my
-        access to the physical codex.
-      </p>  
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <div class="container-sm">
+
+    <img src="/img/manuscript-front.jpg" class="img-thumbnail w-50 my-4 mx-auto d-block"
+      alt="Manuscript open at first page">
+
+    <h3>Welcome to Carleton’s Compound Manuscript!</h3>
+
+    <p>
+      This digital edition of Ottawa, Carleton University Library, Archives and Research Collection MS. 1 (identified
+      here as
+      the Carleton Compound manuscript) is presented here in three parts:
+    </p>
+
+    <ul>
+      <li>A transcription of the manuscript’s text with adjacent images of each folium,</li>
+      <li> A codicological analysis of the manuscript focusing on its physical composition and palaeography,</li>
+      <li>and an analysis of the manuscript’s contents</li>
+    </ul>
+
+
+    <p>These are meant to aid with the further research and to make Carleton’s oldest manuscript available for study.
+    </p>
+
+    <p>
+      Although this project in many ways follows the traditional standard of manuscript editions, it was born digital to
+      address the problems that come with the printed edition. These were chiefly access issues and the limitations to
+      the
+      presentation of information. I discuss these challenges and particularities that come with digital projects in <a
+        href="">How to Read This Edition in Part 2: Edition.</a>
+      To follow the process I took to undertake this project, and the decisions that were made along the way, including
+      apps
+      used, find the project roadmap in the final two sections of Part 2: Edition.
+    </p>
+
+    <p>
+      You can also find the code for this website, and the xml files produced for the transcription as well as the code
+      parser
+      for the Transkribus files on my Github.
+    </p>
+
+    <p>
+      Disclaimer: The final stages of this project were written under quarantine due to COVID-19 which prematurely ended
+      my
+      access to the physical codex.
+    </p>
 
   </div>
   </div>
