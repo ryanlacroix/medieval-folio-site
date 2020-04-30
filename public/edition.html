@@ -1,157 +1,323 @@
-<html>
-<h1>Part 2: Edition</h1>
-<h2>How to read this edition</h2>
-<p>
-	This transcription of the manuscript’s text is a visual reproduction, and a Diplomatic Edition. This means that what you see on the images on the left hand side was transcribed on the right with scribal mistakes, special and abbreviated characters, and punctuation or lack thereof left in the final product. This is not a critical edition, which would be the product of studying multiple manuscripts to construct a final version with the cumulative information from each codex with the purpose of studying its contents rather than the specific manuscript’s history. This edition, as it lives in the digital realm, can also be referred to as a Hypertext edition, because of the nonlinear presentation of information that can be achieved through the digital format unlike traditional print texts. 
+<!doctype html>
+<html class="no-js" lang="">
 
-</p>	
-<h2>Privileging transcription over finished edition</h2>
+<head>
 
-<p>
-	The benefit of this is that researchers can easily study the paleographical and codicological aspects of this manuscript. This decision was made because Carleton Compound manuscript is quite standard in its contents, but rather unique in its physical composition (more information on this in the physical description section). The decision to make the edition digital was in large part a question of access, especially because Carleton University, as a Canadian institution, must rely heavily on digital content for the study of European manuscripts. 
+	<meta charset="utf-8">
+	<title>Edition - Carleton Compound Manuscript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-</p>	
-<h2>Digital Format</h2>
+	<!-- Boilerplate -->
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="theme-color" content="#fafafa">
 
-<p>
-	Because of the digital format, the text can be shown in numerous ways without compromising user experience, i.e. the reader does not need to constantly refer to the index and appendices at the back of a paper copy to make sense of the text. As you will see, in order to unpack an abbreviation or symbol as presented in the manuscript in the transcription, the user must simply hover over the word or symbol to have it unpacked (with the exception of common usage symbols, as listed in the table below). 
+	<!-- Bootstrap and friends -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
 
-</p>	
+	<!-- Interactive functionality -->
+	<script src="js/manuscript.js"></script>
 
-<h2>Abbreviations</h2>
+</head>
 
-Symbol
-Type
-Expansion or modern equivalent
-Unpacked?
-ꝛ
-Latin Rotunda r
-r
-No
-ꝺ
-Latin uncial d
-d
-No
-Ꝟ
-Latin capital V with stroke
-Versus/ Versum
-Yes
-ꝯ
-Latin abbreviation for con
--con
+<body>
+	<nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar">
+		<!-- bg-dark-->
+		<a class="navbar-brand my-auto" href="#">
+			<img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45"
+				class="d-inline-block rounded icon-raised" alt="">
+			Carleton Compound Manuscript</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<ul class="navbar-nav ml-auto">
+				<li><a class="nav-item nav-link" href="home.html">Home</a></li>
+				<li class="dropdown">
+					<a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link active">Manuscript <b
+							class="caret"></b></a>
 
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="manuscript.html">Transcription</a>
+						<a class="dropdown-item" href="introduction.html">Introduction</a>
+						<a class="dropdown-item" href="physicalDescription.html">Physical Description</a>
+						<a class="dropdown-item" href="contents.html">Contents</a>
+					</div>
 
-Ꝫ
-Rotunda m
--m
-Yes
-ꝓ
-Rotunda pr
-pr-
-Yes
-ꞅ
-Long s
-s
-No
+				</li>
+				<li class="dropdown">
+					<a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link">About <b
+							class="caret"></b></a>
 
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="edition.html">Edition<span class="sr-only">(current)</span></a>
+						<a class="dropdown-item" href="#">Notes</a>
+					</div>
 
-<h2>Image files</h2>
+				</li>
+				<li><a class="nav-item nav-link" href="index.html">Index</a></li>
+			</ul>
+		</div>
+	</nav>
 
-<p>
-	The images found on the website were originally produced in TIFF but from a web-friendly point of view, the images had to be cropped and resized to allow for quick load times on the website. This comes from a user experience (UX) stand-point to ensure the largest group of scholars would have access to the images rather than the few with high download speeds and large amounts of available RAM. The images are still high-quality enough for the detailed scrutiny required in manuscript studies and are available for download for scholars to quickly and frequently access.
+	<!-- Page content -->
+	<div class="container-sm">
+		<h1>Part 2: Edition</h1>
+		<h2>How to read this edition</h2>
+		<p>
+			This transcription of the manuscript’s text is a visual reproduction, and a Diplomatic Edition. This means
+			that what you see on the images on the left hand side was transcribed on the right with scribal mistakes,
+			special and abbreviated characters, and punctuation or lack thereof left in the final product. This is not a
+			critical edition, which would be the product of studying multiple manuscripts to construct a final version
+			with the cumulative information from each codex with the purpose of studying its contents rather than the
+			specific manuscript’s history. This edition, as it lives in the digital realm, can also be referred to as a
+			Hypertext edition, because of the nonlinear presentation of information that can be achieved through the
+			digital format unlike traditional print texts.
 
-</p>		
-<p>
-	These images were taken with a digital camera, but in future we hope to produce scans of the manuscript. Unfortunately we did not have access to a large enough scanner at the time of this project. This presented unique challenges because the orientation, lighting, and dimensions of each image were distinct. In other words, each of the 148 original images would have to be manually manipulated. Therefore, a batch image processor was used to crop the images to a standard size. This allowed the website to display the folios in a streamline and consistent fashion, giving the reader a book-like experience despite the vastly different sizes and orientation of the original images. As you will see, the result was not perfect, but far easier to read in the final version.
+		</p>
+		<h2>Privileging transcription over finished edition</h2>
 
-</p>	
+		<p>
+			The benefit of this is that researchers can easily study the paleographical and codicological aspects of
+			this manuscript. This decision was made because Carleton Compound manuscript is quite standard in its
+			contents, but rather unique in its physical composition (more information on this in the physical
+			description section). The decision to make the edition digital was in large part a question of access,
+			especially because Carleton University, as a Canadian institution, must rely heavily on digital content for
+			the study of European manuscripts.
 
+		</p>
+		<h2>Digital Format</h2>
 
+		<p>
+			Because of the digital format, the text can be shown in numerous ways without compromising user experience,
+			i.e. the reader does not need to constantly refer to the index and appendices at the back of a paper copy to
+			make sense of the text. As you will see, in order to unpack an abbreviation or symbol as presented in the
+			manuscript in the transcription, the user must simply hover over the word or symbol to have it unpacked
+			(with the exception of common usage symbols, as listed in the table below).
 
+		</p>
 
-<h2>Web Edition vs Paper Version</h2>
-<p>
-	When I was first introduced to the Carleton Compound manuscript in 2016 Carleton University’s Archives and Research Collections had not yet digitally catalogued any of their medieval materials, nor do they exist in the library's catalogue. For researchers, it is as if the manuscript does not exist. This project sought to address this problem by creating an online edition for the codex, circumventing the issues with access intrinsic to the printed edition.
+		<h2>Abbreviations</h2>
 
-</p>	
-<h2>Broader Access</h2>
-<p>
-	Some of these fundamental issues are that the commentary and glossary are usually separate from the transcription, segregated to the end of the paperback, often rendering it cumbersome for reference. Furthermore, a printed work must be produced, published, and distributed before it is accessible to scholars. Electronic editions, however, change this process – making editions not a product but a process that can be published online while in progress to allow other scholars to make use of the work and possibly to contribute to it. In essence, once the work is online and accessible (usually through an institution) it is catalogued and therefore referenceable, unlike projects which are left to languish gathering dust within the shelves upon shelves of uncatalogued theses.
-
-</p>	
-<p>
-	Scholars of medieval liturgy and codicology can know of the manuscript’s existence and perhaps reveal some of its long-held secrets through this diplomatic edition. Found on this bespoke website created with the purpose of showcasing this manuscript in ways suited to its study as both object and text.
-
-</p>	
-<h2>Open Source</h2>
-<p>
-	This project embraces the idea of collaboration and transparency in the digital realm and builds upon the developments of digital academics in the field of manuscript studies. That is why all stages of this project were accomplished using largely open source and free to use software. Furthermore, all the code purpose written for this project is available to others to use and modify for their own future projects via Github. 
-
-</p>	
-<h2>Editorial Decisions</h2>
-<p>
-	This was the first step in the project, to generate a transcription that would be workable for research into the contents of the manuscript. However, the first draft of the transcription was a lesson in editorial decision making. When and how should I use unicode characters to represent unique Latin letter forms?
-	-How and why use unicode characters
-	-Why only the primary book was transcribed (lack of fragment transcription) I only transcribed the main text
-	My goal was to focus on the lit. ...this is the provisional ...this is work that can be done still...
-
-</p>	
-
-<h2>Transkribus </h2>
-<p>
-	Transkribus is a tool that automatically recognizes lines of hand written text to make transcribing historical documents into XML easier. The ability to render the text in XML also provides scholars with the ability to tag structural and textual elements of the document to more easily reproduce these elements when connected with a purpose made CSS. This program is open access (free to use) and most of the source code is open source, find more on the Transkribus github page. 
-
-</p>	
-<h2>Tool and Source Code</h2>
-<p>
-	Code exported from Transkribus is available in XML which includes all the locational data from the software’s layout analysis tools. Because this was not key to this project, a code parser was developed to clean up the XML and produce an HTML version of the transcription purpose built for this website. 
-	The HTML, JS and CSS for the website can all be found on my Github.
-</p>
-
-<h2>Heroku</h2>
-<p>
-	Heroku is a cloud application platform that allows users to manage their servers for free. The decision to make a bespoke website for this project posed a significant issue: where would I serve the images and source code? Heroku provides this service for free. It is also well documented and has a large community for support resources that can help students (and non-developers) to use the platform and troubleshoot problems as they arise. 
-
-</p>	
-<h2>Stages of Production</h2>
-<p>
-	In order to illustrate the process of creating a born-digital manuscript edition, I have provided a roadmap for this project below. Here I discuss the methods and guidelines I consulted and I reflect on the limitations and advantages of the various software and platforms I used throughout this process. For more information on editorial decisions made throughout this project please see How to Read this Edition.
-
-</p>	
-<h2>Using Transkribus</h2>
-<p>
-	Before I could begin to start pulling research into a cohesive place, I needed a workable transcription of the Carleton compound manuscript. In order to create a digital transcription of the manuscript, I needed a robust tool that could serve over 130 high quality images and would preferably be an open access (free to use) tool. Developers at the University of Innsbruck, Austria, had developed a tool, Transkribus, that met nearly all my specifications. This tool automatically recognizes historical written and printed text and builds an intuitive structure around textual elements to make transcription easier. Importantly, it hosts users’ images to the Transkribus server to create “private collections” that limit access to the original user and those they chose to share their collection with. Moreover, the tool allows scholars to write in any language using any character set (this project required the extended Latin unicode alphabet). 
-
-</p>	
-<p>
-	The major caveat of using the Transkribus software was its output format. Transkribus outputs hundreds of lines of XML code containing a proprietary string format that represents the coordinates of each identified element of text (including rubrication, position of lines of text, drop capitals, etc.). The string format does not follow XML standards and therefore required a custom parser (which can be found on my Github page) that detected the location information of the various tags (indicating the important textual elements of the document) for it to be correctly displayed on the website.
-
-</p>	
-<h2>Working with the XML files</h2>
-<p>
-	Transkribus exports in several formats, including TEI (Text Encoding Initiative), PDF, and XML (Extensible Markup Language). TEI guidelines, the ideal for many digital humanists, define and shape the XML format to be compatible between digital humanities projects. The payload of this initiative is a vigorous tagging system that documents and describes structural and textual elements of virtually any type of document. Transkribus includes many of these tags within the program and these have been largely maintained in the final HTML for this project, which you can find on my Github page. As mentioned in the previous section, “Using Transkribus”, Transkribus outputs XML code containing a proprietary string format that does not follow XML standards. Therefore, in order for the code to display accurately on the website, a custom parser (found here) that detected the location information for the various tags (indicating the important textual elements of the document) was purpose built to work with Transkribus’ XML output. This custom parser outputted directly into the HTML used for the website (found here). 
-	Using Javascript
-	?
-</p>
-
-<p>Creating the Website </p>
--Why a purpose built website and not wordpress, etc?
+		Symbol
+		Type
+		Expansion or modern equivalent
+		Unpacked?
+		ꝛ
+		Latin Rotunda r
+		r
+		No
+		ꝺ
+		Latin uncial d
+		d
+		No
+		Ꝟ
+		Latin capital V with stroke
+		Versus/ Versum
+		Yes
+		ꝯ
+		Latin abbreviation for con
+		-con
 
 
-<h2>Cantus Database</h2>
--How was the Cantus database used?
+		Ꝫ
+		Rotunda m
+		-m
+		Yes
+		ꝓ
+		Rotunda pr
+		pr-
+		Yes
+		ꞅ
+		Long s
+		s
+		No
 
-<h2>Conclusions</h2>
-<p>
-	Digital projects are more of a process than a final product, and as such are constantly evolving. What has been done sets the foundations for further research and further questions. Chief among these for me are, where to go from here?
-	Ideally, the next steps for this project would be to:
 
-</p>	
+		<h2>Image files</h2>
 
-<p>
-	Transcribe the fragments used as manuscript waste that can be found throughout the codex to deepen our understanding of the book’s history and provenance. 
-	Crowdsource the musical notation for this codex. Having no musical experience myself, I made the decision not to attempt a transcription of the musical notation found in this chant manuscript. A logical next step for this project would therefore be a transcription of the manuscript’s plainchant and subsequent integration into the Cantus database.
-	Integrate into the Cantus database (explanation of Cantus database and what is involved in integration)
+		<p>
+			The images found on the website were originally produced in TIFF but from a web-friendly point of view, the
+			images had to be cropped and resized to allow for quick load times on the website. This comes from a user
+			experience (UX) stand-point to ensure the largest group of scholars would have access to the images rather
+			than the few with high download speeds and large amounts of available RAM. The images are still high-quality
+			enough for the detailed scrutiny required in manuscript studies and are available for download for scholars
+			to quickly and frequently access.
 
-</p>	
+		</p>
+		<p>
+			These images were taken with a digital camera, but in future we hope to produce scans of the manuscript.
+			Unfortunately we did not have access to a large enough scanner at the time of this project. This presented
+			unique challenges because the orientation, lighting, and dimensions of each image were distinct. In other
+			words, each of the 148 original images would have to be manually manipulated. Therefore, a batch image
+			processor was used to crop the images to a standard size. This allowed the website to display the folios in
+			a streamline and consistent fashion, giving the reader a book-like experience despite the vastly different
+			sizes and orientation of the original images. As you will see, the result was not perfect, but far easier to
+			read in the final version.
+
+		</p>
+
+
+
+
+		<h2>Web Edition vs Paper Version</h2>
+		<p>
+			When I was first introduced to the Carleton Compound manuscript in 2016 Carleton University’s Archives and
+			Research Collections had not yet digitally catalogued any of their medieval materials, nor do they exist in
+			the library's catalogue. For researchers, it is as if the manuscript does not exist. This project sought to
+			address this problem by creating an online edition for the codex, circumventing the issues with access
+			intrinsic to the printed edition.
+
+		</p>
+		<h2>Broader Access</h2>
+		<p>
+			Some of these fundamental issues are that the commentary and glossary are usually separate from the
+			transcription, segregated to the end of the paperback, often rendering it cumbersome for reference.
+			Furthermore, a printed work must be produced, published, and distributed before it is accessible to
+			scholars. Electronic editions, however, change this process – making editions not a product but a process
+			that can be published online while in progress to allow other scholars to make use of the work and possibly
+			to contribute to it. In essence, once the work is online and accessible (usually through an institution) it
+			is catalogued and therefore referenceable, unlike projects which are left to languish gathering dust within
+			the shelves upon shelves of uncatalogued theses.
+
+		</p>
+		<p>
+			Scholars of medieval liturgy and codicology can know of the manuscript’s existence and perhaps reveal some
+			of its long-held secrets through this diplomatic edition. Found on this bespoke website created with the
+			purpose of showcasing this manuscript in ways suited to its study as both object and text.
+
+		</p>
+		<h2>Open Source</h2>
+		<p>
+			This project embraces the idea of collaboration and transparency in the digital realm and builds upon the
+			developments of digital academics in the field of manuscript studies. That is why all stages of this project
+			were accomplished using largely open source and free to use software. Furthermore, all the code purpose
+			written for this project is available to others to use and modify for their own future projects via Github.
+
+		</p>
+		<h2>Editorial Decisions</h2>
+		<p>
+			This was the first step in the project, to generate a transcription that would be workable for research into
+			the contents of the manuscript. However, the first draft of the transcription was a lesson in editorial
+			decision making. When and how should I use unicode characters to represent unique Latin letter forms?
+			-How and why use unicode characters
+			-Why only the primary book was transcribed (lack of fragment transcription) I only transcribed the main text
+			My goal was to focus on the lit. ...this is the provisional ...this is work that can be done still...
+
+		</p>
+
+		<h2>Transkribus </h2>
+		<p>
+			Transkribus is a tool that automatically recognizes lines of hand written text to make transcribing
+			historical documents into XML easier. The ability to render the text in XML also provides scholars with the
+			ability to tag structural and textual elements of the document to more easily reproduce these elements when
+			connected with a purpose made CSS. This program is open access (free to use) and most of the source code is
+			open source, find more on the Transkribus github page.
+
+		</p>
+		<h2>Tool and Source Code</h2>
+		<p>
+			Code exported from Transkribus is available in XML which includes all the locational data from the
+			software’s layout analysis tools. Because this was not key to this project, a code parser was developed to
+			clean up the XML and produce an HTML version of the transcription purpose built for this website.
+			The HTML, JS and CSS for the website can all be found on my Github.
+		</p>
+
+		<h2>Heroku</h2>
+		<p>
+			Heroku is a cloud application platform that allows users to manage their servers for free. The decision to
+			make a bespoke website for this project posed a significant issue: where would I serve the images and source
+			code? Heroku provides this service for free. It is also well documented and has a large community for
+			support resources that can help students (and non-developers) to use the platform and troubleshoot problems
+			as they arise.
+
+		</p>
+		<h2>Stages of Production</h2>
+		<p>
+			In order to illustrate the process of creating a born-digital manuscript edition, I have provided a roadmap
+			for this project below. Here I discuss the methods and guidelines I consulted and I reflect on the
+			limitations and advantages of the various software and platforms I used throughout this process. For more
+			information on editorial decisions made throughout this project please see How to Read this Edition.
+
+		</p>
+		<h2>Using Transkribus</h2>
+		<p>
+			Before I could begin to start pulling research into a cohesive place, I needed a workable transcription of
+			the Carleton compound manuscript. In order to create a digital transcription of the manuscript, I needed a
+			robust tool that could serve over 130 high quality images and would preferably be an open access (free to
+			use) tool. Developers at the University of Innsbruck, Austria, had developed a tool, Transkribus, that met
+			nearly all my specifications. This tool automatically recognizes historical written and printed text and
+			builds an intuitive structure around textual elements to make transcription easier. Importantly, it hosts
+			users’ images to the Transkribus server to create “private collections” that limit access to the original
+			user and those they chose to share their collection with. Moreover, the tool allows scholars to write in any
+			language using any character set (this project required the extended Latin unicode alphabet).
+
+		</p>
+		<p>
+			The major caveat of using the Transkribus software was its output format. Transkribus outputs hundreds of
+			lines of XML code containing a proprietary string format that represents the coordinates of each identified
+			element of text (including rubrication, position of lines of text, drop capitals, etc.). The string format
+			does not follow XML standards and therefore required a custom parser (which can be found on my Github page)
+			that detected the location information of the various tags (indicating the important textual elements of the
+			document) for it to be correctly displayed on the website.
+
+		</p>
+		<h2>Working with the XML files</h2>
+		<p>
+			Transkribus exports in several formats, including TEI (Text Encoding Initiative), PDF, and XML (Extensible
+			Markup Language). TEI guidelines, the ideal for many digital humanists, define and shape the XML format to
+			be compatible between digital humanities projects. The payload of this initiative is a vigorous tagging
+			system that documents and describes structural and textual elements of virtually any type of document.
+			Transkribus includes many of these tags within the program and these have been largely maintained in the
+			final HTML for this project, which you can find on my Github page. As mentioned in the previous section,
+			“Using Transkribus”, Transkribus outputs XML code containing a proprietary string format that does not
+			follow XML standards. Therefore, in order for the code to display accurately on the website, a custom parser
+			(found here) that detected the location information for the various tags (indicating the important textual
+			elements of the document) was purpose built to work with Transkribus’ XML output. This custom parser
+			outputted directly into the HTML used for the website (found here).
+			Using Javascript
+			?
+		</p>
+
+		<p>Creating the Website </p>
+		-Why a purpose built website and not wordpress, etc?
+
+
+		<h2>Cantus Database</h2>
+		-How was the Cantus database used?
+
+		<h2>Conclusions</h2>
+		<p>
+			Digital projects are more of a process than a final product, and as such are constantly evolving. What has
+			been done sets the foundations for further research and further questions. Chief among these for me are,
+			where to go from here?
+			Ideally, the next steps for this project would be to:
+
+		</p>
+
+		<p>
+			Transcribe the fragments used as manuscript waste that can be found throughout the codex to deepen our
+			understanding of the book’s history and provenance.
+			Crowdsource the musical notation for this codex. Having no musical experience myself, I made the decision
+			not to attempt a transcription of the musical notation found in this chant manuscript. A logical next step
+			for this project would therefore be a transcription of the manuscript’s plainchant and subsequent
+			integration into the Cantus database.
+			Integrate into the Cantus database (explanation of Cantus database and what is involved in integration)
+
+		</p>
+	</div>
+</body>
+
 </html>
