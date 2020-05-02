@@ -50,6 +50,16 @@ body {
   -webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.14);
   -moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.14);
   box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.14);
+
+  cursor: pointer;  
+}
+.manu-img-modal {
+  text-align: center;
+}
+
+.manu-btns {
+  background-color: rgba(121, 114, 104, 1)!important;
+  border-color: rgba(121, 114, 104, 1)!important;
 }
 
 /* Make the nav bar a little sleeker */

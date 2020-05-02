@@ -1,10 +1,21 @@
 
 /* Controls flipping through the manuscript exhibit page. */
 
-var currPage = 7;
-var currLetter = 'R';
+var currPage = 1;
+var currLetter = 'V';
 
-window.onload = function() { currPage -= 0.5; currLetter = (currLetter == 'R' ? 'V' : 'R');  this.nextPage() };
+window.onload = function() { 
+    currPage -= 0.5;
+    currLetter = (currLetter == 'R' ? 'V' : 'R');
+    this.nextPage();
+
+    // Open modal when manuscript image is clicked
+    $("#img-cont").on("click", function() {
+        console.log('clicked');
+        $('#imagepreview').attr('src', $('#manu-img').attr('src')); // here asign the image to the modal when the user click the enlarge link
+        $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+     });
+};
 
 function nextPage() {
     currPage += 0.5;
@@ -38,4 +49,3 @@ function replaceContent(reqFile) {
         $("#manu-img").attr("src","/img/script-imgs/" + reqFile);
     });*/
 }
-
