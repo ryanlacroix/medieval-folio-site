@@ -1,6 +1,16 @@
 html {
     font-size: 1rem;
-    
+}
+
+h2:not(:first-of-type) {
+  margin-top:50px;
+}
+
+#banner {
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.40);
+  -moz-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.40);
+  box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.40);
+  border-radius: 3px;
 }
 
 /* Open dropdown menus on hover */
@@ -55,6 +65,7 @@ body {
 }
 .manu-img-modal {
   text-align: center;
+  line-height: 2em;
 }
 
 .manu-btns {

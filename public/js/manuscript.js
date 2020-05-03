@@ -9,6 +9,9 @@ window.onload = function() {
     currLetter = (currLetter == 'R' ? 'V' : 'R');
     this.nextPage();
 
+    // Open introduction modal immediately
+    $('#intro-modal').modal('show');
+
     // Open modal when manuscript image is clicked
     $("#img-cont").on("click", function() {
         console.log('clicked');
