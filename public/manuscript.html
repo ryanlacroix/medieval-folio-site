@@ -15,10 +15,8 @@
   <meta name="theme-color" content="#fafafa">
 
   <!-- Bootstrap and friends -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
@@ -75,28 +73,82 @@
 
   <!-- Page content -->
   <div class="container-sm">
-    
-    
 
     <!-- Main content -->
     <div class="row">
       <!-- Left panel (manuscript image) -->
-      <div class="col-sm-6 text-light" id="img-cont"><img id="manu-img" class="img-fluid my-3" src="img/script-imgs/ARC_manuscript_1_10R.jpg"></div>
+      <div class="col-sm-6 text-light" id="img-cont"><img id="manu-img" class="img-fluid my-3"
+          src="img/script-imgs/ARC_manuscript_1_10R.jpg"></div>
 
       <!-- Right panel (transcription) -->
-      <div class="col-sm-6 align-self-center text-nowrap">
-        
+      <div class="col-sm-6 align-self-center text-nowrap"
+        style="min-height:500px; display:flex; flex-direction:column;">
+
         <!-- Interactive transcriptions summoned into here -->
-        <div id="transc-cont"></div>
+        <div id="transc-cont" style="display:flex;align-items:center;min-height:400px;justify-content: center;"></div>
 
         <!-- Prev and Next page buttons -->
-        <div class="row align-self-end">
-          <div class="col-sm-6 text-dark"><button type="button" onclick="prevPage();" class="btn btn-primary my-3">Back</button></div>
-          <div class="col-sm-6 text-dark"><button type="button" onclick="nextPage();" class="btn btn-primary my-3">Next</button></div>
+        <div class="row" style="margin-top:auto;">
+          <div class="col-sm-6 text-dark" style="display:flex;justify-content:center;"><button type="button"
+              onclick="prevPage();" class="btn btn-primary my-3 manu-btns">Back</button></div>
+          <div class="col-sm-6 text-dark" style="display:flex;justify-content:center;"><button type="button"
+              onclick="nextPage();" class="btn btn-primary my-3 manu-btns">Next</button></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+
+
+  <!-- Creates the bootstrap modal where the image will appear -->
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 70%">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+              class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Folio view</h4> <!-- Should parse the folio name and print here -->
+        </div>
+        <div class="modal-body manu-img-modal">
+          <img src="" id="imagepreview"> <!-- style="width: 400px; height: 264px;" -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- intro modal -->
+  <div class="modal fade" id="intro-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 70%">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+              class="sr-only">Close</span></button>
+
+        </div>
+        <div class="modal-body manu-img-modal">
+          <h2>Interactive Transcription</h2>
+
+          <p>
+            This interactive transcription allows blah blah <br /> <br />
+            <span dropCap="true">D</span>rop capitals are represented with letters twice as large as the surrounding text.<br />
+            <strong>Bolded</strong> text indicates an abbreviation. Hover over these to see the expanded form.<br />
+            <span rubricated="true">Red</span> text indicates rubrication.<br/>
+            
+
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
