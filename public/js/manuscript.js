@@ -1,8 +1,10 @@
 
-/* Controls flipping through the manuscript exhibit page. */
+/* This script controls flipping through the manuscript exhibit page. */
 
 var currPage = 1;
-var currLetter = 'V';
+var currLetter = 'R';
+const pageMax = 65;
+const pageMin = 1;
 
 window.onload = function() { 
     currPage -= 0.5;
@@ -25,8 +27,25 @@ window.onload = function() {
 
 };
 
+/* Hide prev/next button on first/last page */
+function checkEdges() {
+    if (currPage == pageMin) {
+        $('#prev-button').hide();
+    } else if (currPage >= pageMax) {
+        $("#next-button").hide();
+    } else {
+        $("#prev-button").show();
+        $("#next-button").show();
+    }
+}
+
 function nextPage() {
     currPage += 0.5;
+    checkEdges();
+    if (currPage > pageMax) {
+        currPage = pageMax;
+        return;
+    }
     currLetter = (currLetter == 'R' ? 'V' : 'R');
     reqFile = 'ARC_manuscript_1_'+String(Math.floor(currPage))+ currLetter;
     console.log(reqFile);
@@ -34,6 +53,11 @@ function nextPage() {
 }
 function prevPage() {
     currPage -= 0.5;
+    checkEdges();
+    if (currPage < pageMin) {
+        currPage = pageMin;
+        return;
+    }
     currLetter = (currLetter == 'R' ? 'V' : 'R');
     reqFile = 'ARC_manuscript_1_'+String(Math.floor(currPage))+ currLetter;
     console.log(reqFile);
