@@ -2,6 +2,11 @@ html {
     font-size: 1rem;
 }
 
+p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 h2:not(:first-of-type) {
   margin-top:50px;
 }
@@ -61,7 +66,8 @@ body {
   -moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.14);
   box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.14);
 
-  cursor: pointer;  
+  cursor: pointer;
+  border-radius: 5px;
 }
 .manu-img-modal {
   text-align: center;
@@ -111,9 +117,14 @@ body {
   color: red;
 }
 
+#transcr-main-content {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
 /* Expansions */
-span[data-toggle="tooltip"] {
-  font-weight: 600;
+span[data-toggle="tooltip"]:hover {
+  cursor: default;
 }
 
 [dropCap] {
@@ -123,5 +134,31 @@ span[data-toggle="tooltip"] {
 }
 
 #currentPage {
-  line-height:2.4em
+  line-height:2.4em;
+
+  border-radius: 5px;
+  padding: 20px;
+  border-color: rgba(121, 114, 104, 0.5);
+  -webkit-box-shadow: inset 0px 0px 11px -1px rgba(0,0,0,0.17);
+  -moz-box-shadow: inset 0px 0px 11px -1px rgba(0,0,0,0.17);
+  box-shadow: inset 0px 0px 11px -1px rgba(0,0,0,0.17);
+}
+
+#help-button {
+  color: gray;
+}
+#help-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+p:first-of-type:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
