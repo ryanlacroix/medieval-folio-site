@@ -72,10 +72,10 @@
   </nav>
 
   <!-- Page content -->
-  <div class="container-sm">
-
+  <div class="container-sm" style="position:relative;">
+    <div id="help-button" style="position:absolute;right:30px;">help</div>
     <!-- Main content -->
-    <div class="row">
+    <div class="row" id="transcr-main-content">
       <!-- Left panel (manuscript image) -->
       <div class="col-sm-6 text-light" id="img-cont"><img id="manu-img" class="img-fluid my-3"
           src="img/script-imgs/ARC_manuscript_1_10R.jpg"></div>
@@ -89,9 +89,11 @@
 
         <!-- Prev and Next page buttons -->
         <div class="row" style="margin-top:auto;">
-          <div class="col-sm-6 text-dark" style="display:flex;justify-content:center;"><button type="button"
+          <div class="col-sm-4 text-dark" style="display:flex;justify-content:flex-end;"><button type="button"
               onclick="prevPage();" class="btn btn-primary my-3 manu-btns">Back</button></div>
-          <div class="col-sm-6 text-dark" style="display:flex;justify-content:center;"><button type="button"
+          <div id="page-number" class="col-sm-4 lead" style="display:flex;justify-content:center;align-items:center;">Page 1V
+          </div>
+          <div class="col-sm-4 text-dark" style="display:flex;justify-content:flex-start;"><button type="button"
               onclick="nextPage();" class="btn btn-primary my-3 manu-btns">Next</button></div>
         </div>
       </div>
@@ -135,14 +137,15 @@
         <div class="modal-body manu-img-modal">
           <h2>Interactive Transcription</h2>
 
-          <p>
+          <div>
             This interactive transcription allows blah blah <br /> <br />
-            <span dropCap="true">D</span>rop capitals are represented with letters twice as large as the surrounding text.<br />
-            <strong>Bolded</strong> text indicates an abbreviation. Hover over these to see the expanded form.<br />
-            <span rubricated="true">Red</span> text indicates rubrication.<br/>
-            
+            <span dropCap="true">D</span>rop capitals are represented with letters twice as large as the surrounding
+            text.<br />
+            <mark>Highlighted text</mark> indicates an abbreviation. Hover over these to see the expanded form.<br />
+            <span rubricated="true">Red</span> text indicates rubrication.<br />
 
-          </p>
+
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

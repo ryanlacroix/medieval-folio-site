@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main">missing folios xml draft 1</title></titleStmt><publicationStmt><publisher>tranScriptorium</publisher></publicationStmt><sourceDesc><bibl><publisher>TRP document creator: ktbrasseur@gmail.com</publisher></bibl></sourceDesc></fileDesc></teiHeader><facsimile xml:id="facs_1"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_3V.jpg" width="3456px"/><zone points="820,858 3241,858 3241,4093 820,4093" rendition="TextRegion" xml:id="facs_1_region_1585847424867_804">
+                <zone points="929,1196 3127,1196 3127,1390 929,1390" rendition="Line" xml:id="facs_1_line_1585847435539_807"/>
+                <zone points="913,1686 3094,1686 3094,1942 913,1942" rendition="Line" xml:id="facs_1_line_1585847438744_810"/>
+                <zone points="928,2189 3110,2189 3110,2468 928,2468" rendition="Line" xml:id="facs_1_line_1585847442372_813"/>
+                <zone points="928,2731 3079,2731 3079,2986 928,2986" rendition="Line" xml:id="facs_1_line_1585847444820_816"/>
+                <zone points="936,3203 3102,3203 3102,3466 936,3466" rendition="Line" xml:id="facs_1_line_1585847449258_819"/>
+                <zone points="897,3744 3141,3744 3141,3992 897,3992" rendition="Line" xml:id="facs_1_line_1585847452206_822"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_2"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_6V.jpg" width="3456px"/><zone points="962,967 3160,967 3160,4043 962,4043" rendition="TextRegion" xml:id="facs_2_region_1585848115754_866">
+                <zone points="1018,1269 3043,1269 3043,1532 1018,1532" rendition="Line" xml:id="facs_2_line_1585848120023_869"/>
+                <zone points="996,1761 3054,1761 3054,2002 996,2002" rendition="Line" xml:id="facs_2_line_1585848122107_872"/>
+                <zone points="1018,2253 3021,2253 3021,2494 1018,2494" rendition="Line" xml:id="facs_2_line_1585848125106_875"/>
+                <zone points="985,2718 3043,2718 3043,2936 985,2936" rendition="Line" xml:id="facs_2_line_1585848128760_878"/>
+                <zone points="973,3176 3015,3176 3015,3439 973,3439" rendition="Line" xml:id="facs_2_line_1585848131057_881"/>
+                <zone points="1007,3629 3048,3629 3048,3926 1007,3926" rendition="Line" xml:id="facs_2_line_1585848134270_884"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_3"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_10V.jpg" width="3456px"/><zone points="288,111 3150,111 3150,4139 288,4139" rendition="TextRegion" xml:id="facs_3_region_1585848427755_906">
+                <zone points="323,520 2942,520 2942,859 323,859" rendition="Line" xml:id="facs_3_line_1585848432068_909"/>
+                <zone points="279,1138 2976,1138 2976,1486 279,1486" rendition="Line" xml:id="facs_3_line_1585848434598_912"/>
+                <zone points="314,1773 3072,1773 3072,2173 314,2173" rendition="Line" xml:id="facs_3_line_1585848436944_915"/>
+                <zone points="288,2417 3046,2417 3046,2791 288,2791" rendition="Line" xml:id="facs_3_line_1585848439223_918"/>
+                <zone points="244,3087 3020,3087 3020,3496 244,3496" rendition="Line" xml:id="facs_3_line_1585848441850_921"/>
+                <zone points="271,3704 2968,3704 2968,4096 271,4096" rendition="Line" xml:id="facs_3_line_1585848443929_924"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_4"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_11R.jpg" width="3456px"/><zone points="184,514 2618,514 2618,3831 184,3831" rendition="TextRegion" xml:id="facs_4_region_1585848675257_944">
+                <zone points="325,860 2467,860 2467,1103 325,1103" rendition="Line" xml:id="facs_4_line_1585848680539_947"/>
+                <zone points="325,1358 2442,1358 2442,1651 325,1651" rendition="Line" xml:id="facs_4_line_1585848682887_950"/>
+                <zone points="300,1869 2504,1869 2504,2155 300,2155" rendition="Line" xml:id="facs_4_line_1585848685341_953"/>
+                <zone points="313,2348 2423,2348 2423,2616 313,2616" rendition="Line" xml:id="facs_4_line_1585848687706_956"/>
+                <zone points="294,2827 2417,2827 2417,3083 294,3083" rendition="Line" xml:id="facs_4_line_1585848689561_959"/>
+                <zone points="338,3375 2498,3375 2498,3593 338,3593" rendition="Line" xml:id="facs_4_line_1585848691643_962"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_5"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_20R.JPG" width="3456px"/><zone points="156,830 2605,830 2605,4054 156,4054" rendition="TextRegion" xml:id="facs_5_region_1585848935804_981">
+                <zone points="267,1169 2425,1169 2425,1390 267,1390" rendition="Line" xml:id="facs_5_line_1585848939351_984"/>
+                <zone points="253,1667 2439,1667 2439,1958 253,1958" rendition="Line" xml:id="facs_5_line_1585848941396_987"/>
+                <zone points="239,2138 2432,2138 2432,2442 239,2442" rendition="Line" xml:id="facs_5_line_1585848943445_990"/>
+                <zone points="226,2691 2384,2691 2384,2947 226,2947" rendition="Line" xml:id="facs_5_line_1585848945253_993"/>
+                <zone points="226,3161 2411,3161 2411,3445 226,3445" rendition="Line" xml:id="facs_5_line_1585848947458_996"/>
+                <zone points="281,3708 2370,3708 2370,3936 281,3936" rendition="Line" xml:id="facs_5_line_1585848949516_999"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_6"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_29R (duo).JPG" width="3456px"/><zone points="73,867 2256,867 2256,3986 73,3986" rendition="TextRegion" xml:id="facs_6_region_1585852101776_1028">
+                <zone points="101,1165 2294,1165 2294,1432 101,1432" rendition="Line" xml:id="facs_6_line_1585852108880_1032"/>
+                <zone points="54,1652 1886,1652 1886,1893 54,1893" rendition="Line" xml:id="facs_6_line_1585852112428_1035"/>
+                <zone points="1891,1736 2252,1736 2252,1992 1891,1992" rendition="Line" xml:id="facs_6_line_1585852116621_1038"/>
+                <zone points="143,2165 2310,2165 2310,2422 143,2422" rendition="Line" xml:id="facs_6_line_1585852119264_1041"/>
+                <zone points="59,2699 2226,2699 2226,2929 59,2929" rendition="Line" xml:id="facs_6_line_1585852121424_1044"/>
+                <zone points="23,3249 1467,3249 1467,3406 23,3406" rendition="Line" xml:id="facs_6_line_1585852124305_1047"/>
+                <zone points="106,3720 2221,3720 2221,3945 106,3945" rendition="Line" xml:id="facs_6_line_1585852128513_1053"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_7"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_30R.JPG" width="3456px"/><zone points="61,798 2293,798 2293,3982 61,3982" rendition="TextRegion" xml:id="facs_7_region_1588022133432_129">
+                <zone points="124,1197 2052,1192 2052,1242 124,1247" rendition="Line" xml:id="facs_7_line_1588022168885_162"/>
+                <zone points="118,1714 2061,1688 2062,1738 119,1764" rendition="Line" xml:id="facs_7_line_1588022174482_167"/>
+                <zone points="102,2231 2056,2200 2057,2250 103,2281" rendition="Line" xml:id="facs_7_line_1588022179370_172"/>
+                <zone points="108,2748 2051,2717 2052,2767 109,2798" rendition="Line" xml:id="facs_7_line_1588022183557_177"/>
+                <zone points="119,3250 2114,3229 2114,3279 119,3300" rendition="Line" xml:id="facs_7_line_1588022187275_182"/>
+                <zone points="134,3754 2098,3775 2098,3825 134,3804" rendition="Line" xml:id="facs_7_line_1588022197661_187"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_8"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_30V.jpg" width="3456px"/><zone points="996,723 3268,723 3268,4028 996,4028" rendition="TextRegion" xml:id="facs_8_region_1588023323754_224">
+                <zone points="1093,1066 3107,1079 3107,1129 1093,1116" rendition="Line" xml:id="facs_8_line_1588023332797_227"/>
+                <zone points="1061,1563 3068,1576 3068,1626 1061,1613" rendition="Line" xml:id="facs_8_line_1588023337117_232"/>
+                <zone points="1035,2079 3075,2099 3075,2149 1035,2129" rendition="Line" xml:id="facs_8_line_1588023340859_237"/>
+                <zone points="1100,2570 3062,2570 3062,2620 1100,2620" rendition="Line" xml:id="facs_8_line_1588023344274_242"/>
+                <zone points="1080,3093 3042,3080 3042,3130 1080,3143" rendition="Line" xml:id="facs_8_line_1588023347707_247"/>
+                <zone points="1074,3590 3133,3583 3133,3633 1074,3640" rendition="Line" xml:id="facs_8_line_1588023350516_252"/>
+                <zone points="1101,3964 2140,3977 2139,4027 1100,4014" rendition="Line" xml:id="facs_8_line_1588023353707_257"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_9"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_40V (duo).JPG" width="3456px"/><zone points="904,545 3243,545 3243,3992 904,3992" rendition="TextRegion" xml:id="facs_9_region_1588024984157_361">
+                <zone points="953,1092 3166,1043 3167,1093 954,1142" rendition="Line" xml:id="facs_9_line_1588024993487_364"/>
+                <zone points="954,1594 3189,1589 3189,1639 954,1644" rendition="Line" xml:id="facs_9_line_1588024996879_369"/>
+                <zone points="986,2118 3189,2129 3189,2179 986,2168" rendition="Line" xml:id="facs_9_line_1588024999670_374"/>
+                <zone points="1002,2658 3286,2669 3286,2719 1002,2708" rendition="Line" xml:id="facs_9_line_1588025002829_379"/>
+                <zone points="1029,3171 3092,3171 3092,3221 1029,3221" rendition="Line" xml:id="facs_9_line_1588025005845_384"/>
+                <zone points="955,3678 3217,3711 3216,3761 954,3728" rendition="Line" xml:id="facs_9_line_1588025009219_389"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_10"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_49V (duo).JPG" width="3456px"/><zone points="935,541 3296,541 3296,3984 935,3984" rendition="TextRegion" xml:id="facs_10_region_1588025612546_432">
+                <zone points="1038,1026 3172,1033 3172,1083 1038,1076" rendition="Line" xml:id="facs_10_line_1588025619332_435"/>
+                <zone points="1053,1584 3229,1618 3228,1668 1052,1634" rendition="Line" xml:id="facs_10_line_1588025622893_440"/>
+                <zone points="977,2087 3194,2142 3193,2192 976,2137" rendition="Line" xml:id="facs_10_line_1588025625718_445"/>
+                <zone points="1040,2644 3112,2720 3110,2770 1038,2694" rendition="Line" xml:id="facs_10_line_1588025628582_450"/>
+                <zone points="991,3119 3201,3188 3200,3238 990,3169" rendition="Line" xml:id="facs_10_line_1588025631514_455"/>
+                <zone points="1012,3663 3119,3739 3117,3789 1010,3713" rendition="Line" xml:id="facs_10_line_1588025634385_460"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_11"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_50V (duo).JPG" width="3456px"/></surface></facsimile><facsimile xml:id="facs_12"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_52R (duo).JPG" width="3456px"/><zone points="226,921 2430,921 2430,3809 226,3809" rendition="TextRegion" xml:id="facs_12_region_1588028305708_500">
+                <zone points="298,1282 2178,1282 2178,1332 298,1332" rendition="Line" xml:id="facs_12_line_1588028315041_503"/>
+                <zone points="293,1760 2240,1765 2240,1815 293,1810" rendition="Line" xml:id="facs_12_line_1588028320202_508"/>
+                <zone points="272,2223 2158,2228 2158,2278 272,2273" rendition="Line" xml:id="facs_12_line_1588028324460_513"/>
+                <zone points="288,2716 2240,2716 2240,2766 288,2766" rendition="Line" xml:id="facs_12_line_1588028331678_518"/>
+                <zone points="293,3214 2230,3194 2230,3244 293,3264" rendition="Line" xml:id="facs_12_line_1588028336835_523"/>
+                <zone points="307,3697 2213,3666 2214,3716 308,3747" rendition="Line" xml:id="facs_12_line_1588028343046_528"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_13"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_55R.JPG" width="3456px"/><zone points="188,701 2523,701 2523,3924 188,3924" rendition="TextRegion" xml:id="facs_13_region_1588028984386_581">
+                <zone points="240,1158 2324,1170 2324,1220 240,1208" rendition="Line" xml:id="facs_13_line_1588028991326_584"/>
+                <zone points="228,1640 2306,1698 2305,1748 227,1690" rendition="Line" xml:id="facs_13_line_1588028995976_589"/>
+                <zone points="228,2135 2331,2187 2330,2237 227,2185" rendition="Line" xml:id="facs_13_line_1588029000604_594"/>
+                <zone points="228,2682 2312,2708 2311,2758 227,2732" rendition="Line" xml:id="facs_13_line_1588029004274_599"/>
+                <zone points="241,3197 2209,3242 2208,3292 240,3247" rendition="Line" xml:id="facs_13_line_1588029007788_604"/>
+                <zone points="233,3750 2433,3757 2433,3807 233,3800" rendition="Line" xml:id="facs_13_line_1588029012182_609"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_14"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_55V (duo).JPG" width="3456px"/><zone points="972,621 3340,621 3340,3770 972,3770" rendition="TextRegion" xml:id="facs_14_region_1588029688336_653">
+                <zone points="1100,1005 3122,992 3122,1042 1100,1055" rendition="Line" xml:id="facs_14_line_1588029694150_656"/>
+                <zone points="1112,1562 3166,1523 3167,1573 1113,1612" rendition="Line" xml:id="facs_14_line_1588029697659_661"/>
+                <zone points="1081,2067 3167,2074 3167,2124 1081,2117" rendition="Line" xml:id="facs_14_line_1588029701221_666"/>
+                <zone points="1087,2579 3225,2579 3225,2629 1087,2629" rendition="Line" xml:id="facs_14_line_1588029704314_671"/>
+                <zone points="1050,3136 3226,3162 3225,3212 1049,3186" rendition="Line" xml:id="facs_14_line_1588029707634_676"/>
+                <zone points="1049,3616 3186,3622 3186,3672 1049,3666" rendition="Line" xml:id="facs_14_line_1588029711902_681"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_15"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_57R.jpg" width="3456px"/><zone points="120,590 2564,590 2564,3887 120,3887" rendition="TextRegion" xml:id="facs_15_region_1588030149385_723">
+                <zone points="174,1086 2281,1031 2282,1081 175,1136" rendition="Line" xml:id="facs_15_line_1588030154514_726"/>
+                <zone points="183,1555 2289,1571 2289,1621 183,1605" rendition="Line" xml:id="facs_15_line_1588030158769_731"/>
+                <zone points="206,2104 2321,2112 2321,2162 206,2154" rendition="Line" xml:id="facs_15_line_1588030162251_736"/>
+                <zone points="151,2613 2274,2621 2274,2671 151,2663" rendition="Line" xml:id="facs_15_line_1588030166053_741"/>
+                <zone points="166,3184 2312,3137 2313,3187 167,3234" rendition="Line" xml:id="facs_15_line_1588030170417_746"/>
+                <zone points="183,3654 2352,3646 2352,3696 183,3704" rendition="Line" xml:id="facs_15_line_1588030174788_751"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_16"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_60V.jpg" width="3456px"/><zone points="3268,3682 907,3682 907,590 3268,590" rendition="TextRegion" xml:id="facs_16_region_1588030630814_800">
+                <zone points="976,1036 3079,1054 3079,1104 976,1086" rendition="Line" xml:id="facs_16_line_1588032101351_803"/>
+                <zone points="1038,1512 3198,1538 3197,1588 1037,1562" rendition="Line" xml:id="facs_16_line_1588032104686_808"/>
+                <zone points="1033,2035 3179,2053 3179,2103 1033,2085" rendition="Line" xml:id="facs_16_line_1588032107717_813"/>
+                <zone points="993,2542 3123,2537 3123,2587 993,2592" rendition="Line" xml:id="facs_16_line_1588032112144_818"/>
+                <zone points="1083,3057 3090,3048 3090,3098 1083,3107" rendition="Line" xml:id="facs_16_line_1588032121467_823"/>
+                <zone points="1065,3550 3168,3533 3168,3583 1065,3600" rendition="Line" xml:id="facs_16_line_1588032125985_828"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_17"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_61R (duo).JPG" width="3456px"/><zone points="199,742 2449,742 2449,3804 199,3804" rendition="TextRegion" xml:id="facs_17_region_1588032663720_870">
+                <zone points="218,1106 2289,1148 2288,1198 217,1156" rendition="Line" xml:id="facs_17_line_1588032669192_873"/>
+                <zone points="229,1646 2294,1664 2294,1714 229,1696" rendition="Line" xml:id="facs_17_line_1588032672449_878"/>
+                <zone points="240,2162 2287,2133 2288,2183 241,2212" rendition="Line" xml:id="facs_17_line_1588032676953_883"/>
+                <zone points="223,2667 2271,2685 2271,2735 223,2717" rendition="Line" xml:id="facs_17_line_1588032680538_888"/>
+                <zone points="241,3142 2288,3136 2288,3186 241,3192" rendition="Line" xml:id="facs_17_line_1588032684370_893"/>
+                <zone points="241,3664 2247,3682 2247,3732 241,3714" rendition="Line" xml:id="facs_17_line_1588032687674_898"/>
+            </zone></surface></facsimile><facsimile xml:id="facs_18"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_62R (bis).JPG" width="3456px"/></surface></facsimile><facsimile xml:id="facs_19"><surface lrx="3456" lry="5184" ulx="0" uly="0"><graphic height="5184px" url="ARC_manuscript_1_64V.JPG" width="3456px"/></surface></facsimile><text><body><pb facs="#facs_1" n="1"/><p facs="#facs_1_region_1585847424867_804">
+            <lb facs="#facs_1_line_1585847435539_807" n="N001"/>in ira mea ſi<rubrication>_<choice><expan>introibunt</expan><abbr/></choice></rubrication><choice><expan>introibunt</expan><abbr>introibūt</abbr></choice> in <choice><expan>requiem</expan><abbr>req'eꝫ</abbr></choice>
+            <lb facs="#facs_1_line_1585847438744_810" n="N002"/><choice><expan>requiem</expan><abbr>meaꝫ</abbr></choice> <choice><expan>versum</expan><abbr><rubrication>Ꝟ</rubrication></abbr></choice> <Drop-Capital>G</Drop-Capital>loꝛia <choice><expan>patri</expan><abbr>pat'</abbr></choice> et filio
+            <lb facs="#facs_1_line_1585847442372_813" n="N003"/>et ſpiritui ſancto Sicut erat in
+            <lb facs="#facs_1_line_1585847444820_816" n="N004"/>pꝛincipio et nunc et ſemper et
+            <lb facs="#facs_1_line_1585847449258_819" n="N005"/>in ſecula ſeculoꝛum A<rubrication>_</rubrication>men <rubrication><choice><expan>Secundus</expan><abbr>iiꝰ</abbr></choice> <choice><expan>tonus</expan><abbr>tonꝰ</abbr></choice></rubrication>
+            <lb facs="#facs_1_line_1585847452206_822" n="N006"/><Drop-Capital><rubrication>U</rubrication><rubrication/></Drop-Capital>enite exultemus ꝺomino<rubrication/>enite exultemus ꝺomino</p><pb facs="#facs_2" n="2"/><p facs="#facs_2_region_1585848115754_866">
+            <lb facs="#facs_2_line_1585848120023_869" n="N001"/>filio et ſpiritui ſanto <choice><expan>Versum</expan><abbr><rubrication>Ꝟ</rubrication></abbr></choice> Sicut
+            <lb facs="#facs_2_line_1585848122107_872" n="N002"/>erat in pꝛincipio et nunc et ſem<rubrication>_</rubrication>
+            <lb facs="#facs_2_line_1585848125106_875" n="N003"/>per et in ſecula ſecu<rubrication>_</rubrication>loꝛum a<rubrication>_</rubrication>
+            <lb facs="#facs_2_line_1585848128760_878" n="N004"/>men <rubrication><choice><expan>tertius</expan><abbr>iiiꝰ</abbr></choice> <choice><expan>tonus</expan><abbr>tonꝰ</abbr></choice></rubrication> <Drop-Capital><rubrication>U</rubrication><rubrication/></Drop-Capital>enite <rubrication/>enite <choice><expan>exultemus</expan><abbr>exultemꝰ</abbr></choice> ꝺo
+            <lb facs="#facs_2_line_1585848131057_881" n="N005"/>mino iubilemus ꝺeo ſalutari<rubrication>_</rubrication>
+            <lb facs="#facs_2_line_1585848134270_884" n="N006"/>noſtro Pꝛeocupemus facieꝫ <choice><expan>eius</expan><abbr>eiꝰ</abbr></choice></p><pb facs="#facs_3" n="3"/><p facs="#facs_3_region_1585848427755_906">
+            <lb facs="#facs_3_line_1585848432068_909" n="N001"/>re et altitudines <choice><expan>montium</expan><abbr>montiuꝫ</abbr></choice> ip
+            <lb facs="#facs_3_line_1585848434598_912" n="N002"/>ſe conſpi<rubrication>_</rubrication>cit <choice><expan>Versus</expan><abbr><rubrication>Ꝟ</rubrication></abbr></choice> <Drop-Capital>Q</Drop-Capital>uoni
+            <lb facs="#facs_3_line_1585848436944_915" n="N003"/>am ipſus eſt mare et ipſe fecit
+            <lb facs="#facs_3_line_1585848439223_918" n="N004"/>illuꝺ et aridam fundauerunt
+            <lb facs="#facs_3_line_1585848441850_921" n="N005"/>manus eius Uenite adoꝛemus
+            <lb facs="#facs_3_line_1585848443929_924" n="N006"/>et pꝛocidamus ante ꝺeum plo</p><pb facs="#facs_4" n="4"/><p facs="#facs_4_region_1585848675257_944">
+            <lb facs="#facs_4_line_1585848680539_947" n="N001"/>remus coꝛam ꝺomino qui fe
+            <lb facs="#facs_4_line_1585848682887_950" n="N002"/>cit nos quia ipſe eſt <choice><expan>dominus</expan><abbr>ꝺominꝰ</abbr></choice>
+            <lb facs="#facs_4_line_1585848685341_953" n="N003"/>ꝺeus noſter noſ autem <choice><expan>populus</expan><abbr>popl'ꝰ</abbr></choice>
+            <lb facs="#facs_4_line_1585848687706_956" n="N004"/>eius et oues paſ<rubrication>_</rubrication>chue<rubrication>_</rubrication>e<rubrication>_._</rubrication>
+            <lb facs="#facs_4_line_1585848689561_959" n="N005"/>ius <choice><expan>Versus</expan><abbr><rubrication>Ꝟ.</rubrication></abbr></choice> <Drop-Capital>H</Drop-Capital>o<rubrication>_</rubrication>ꝺie<rubrication>_</rubrication>ſi uocem
+            <lb facs="#facs_4_line_1585848691643_962" n="N006"/>eius audieritis nolite obdu</p><pb facs="#facs_5" n="5"/><p facs="#facs_5_region_1585848935804_981">
+            <lb facs="#facs_5_line_1585848939351_984" n="N001"/>et ipſe fecit illuꝺ et ariꝺam <choice><expan>fundauerunt</expan><abbr>fū</abbr></choice>
+            <lb facs="#facs_5_line_1585848941396_987" n="N002"/><choice><expan>fundauerunt</expan><abbr>ꝺauerunt</abbr></choice> manus <choice><expan>eius</expan><abbr>eiꝰ</abbr></choice> Uenite
+            <lb facs="#facs_5_line_1585848943445_990" n="N003"/>aꝺoꝛemus et <choice><expan>procidamus</expan><abbr>pꝛocidamꝰ</abbr></choice> ante
+            <lb facs="#facs_5_line_1585848945253_993" n="N004"/>ꝺeum <choice><expan>ploremus</expan><abbr>ploꝛemꝰ</abbr></choice> coꝛam ꝺomino
+            <lb facs="#facs_5_line_1585848947458_996" n="N005"/>qui fecit nos quia ipſe eſt <choice><expan>dominus</expan><abbr>ꝺo</abbr></choice>
+            <lb facs="#facs_5_line_1585848949516_999" n="N006"/><choice><expan>dominus</expan><abbr>minꝰ</abbr></choice> ꝺeus noſter nos autem</p><pb facs="#facs_6" n="6"/><p facs="#facs_6_region_1585852101776_1028">
+            <lb facs="#facs_6_line_1585852108880_1032" n="N001"/>quieꝫ eternaꝫ ꝺona eis ꝺomine
+            <lb facs="#facs_6_line_1585852112428_1035" n="N002"/>Et lux perpetua luceat eis
+            <lb facs="#facs_6_line_1585852116621_1038" n="N003"/><choice><expan>alius</expan><abbr>aliꝰ</abbr></choice> <choice><expan>invitatorium</expan><abbr>inuitat̄</abbr></choice>
+            <lb facs="#facs_6_line_1585852119264_1041" n="N004"/><choice><expan>Circumdederunt</expan><abbr><Drop-Capital><rubrication>C</rubrication><rubrication/></Drop-Capital>ircūꝺeꝺerūt<rubrication/>ircūꝺeꝺerūt</abbr></choice> me <choice><expan>gemitus</expan><abbr>gemitꝰ</abbr></choice> moꝛ
+            <lb facs="#facs_6_line_1585852121424_1044" n="N005"/>tis <choice><expan>psalmus</expan><abbr><rubrication>p̄</rubrication></abbr></choice> Doloꝛes in ferni <choice><expan>circumdederunt</expan><abbr>circūꝺe</abbr></choice>
+            <lb facs="#facs_6_line_1585852124305_1047" n="N006"/><choice><expan>circumdederunt</expan><abbr>ꝺerūt</abbr></choice> me <choice><expan>psalmus</expan><abbr><rubrication>p̄</rubrication></abbr></choice> Uenite <rubrication>in pꝛimo noturno: <choice><expan>antiphona</expan><abbr>ⱥ</abbr></choice></rubrication>
+            <lb facs="#facs_6_line_1585852128513_1053" n="N007"/><Drop-Capital><rubrication>D</rubrication><rubrication/></Drop-Capital>i<rubrication/>i<rubrication>_.._</rubrication>rige ꝺomine ꝺeus me</p><pb facs="#facs_7" n="7"/><p facs="#facs_7_region_1588022133432_129">
+            <lb facs="#facs_7_line_1588022168885_162" n="N001"/><choice><expan>neque</expan><abbr>neqƺ</abbr></choice> <choice><expan>qui</expan><abbr>q̄</abbr></choice> <choice><expan>saluum</expan><abbr>ſaluū</abbr></choice> faciat <choice><expan>psalmus</expan><abbr><rubrication>p̄s</rubrication></abbr></choice> <choice><expan>Domine</expan><abbr>Dn̄e</abbr></choice> <choice><expan>deus</expan><abbr>ꝺs̄</abbr></choice> <choice><expan>Versus</expan><abbr><rubrication>Ꝟ</rubrication></abbr></choice>
+            <lb facs="#facs_7_line_1588022174482_167" n="N002"/>Apoꝛta <choice><expan>inferi</expan><abbr>īferi</abbr></choice> <choice><expan>Responsorium</expan><abbr><rubrication>Ꞧ</rubrication></abbr></choice> <Drop-Capital><rubrication>C</rubrication><rubrication/></Drop-Capital>reꝺo <rubrication/>reꝺo <choice><expan>que</expan><abbr>q′</abbr></choice> <choice><expan>redemptor</expan><abbr>reꝺēp</abbr></choice>
+            <lb facs="#facs_7_line_1588022179370_172" n="N003"/><choice><expan>redemptor</expan><abbr>toꝛ</abbr></choice> meu<rubrication>_..._</rubrication>s ui<rubrication>_</rubrication>uit et in no
+            <lb facs="#facs_7_line_1588022183557_177" n="N004"/>ui<rubrication>_</rubrication>ſſimo ꝺi<rubrication>_</rubrication>e ꝺe terra ſurretu<rubrication>_</rubrication>
+            <lb facs="#facs_7_line_1588022187275_182" n="N005"/>ru<rubrication>_..._</rubrication>s ſuꝫ <choice><expan>psalmus</expan><abbr><rubrication>p̄</rubrication></abbr></choice> Et in carne me <choice><expan>uersus</expan><abbr><rubrication>Ꝟ</rubrication></abbr></choice>
+            <lb facs="#facs_7_line_1588022197661_187" n="N006"/><rubrication>_.._</rubrication>a uiꝺebo ꝺe<rubrication>_</rubrication>u<rubrication>_._</rubrication>m <choice><expan>saluatorem</expan><abbr>ſalūtoꝛe</abbr></choice></p><pb facs="#facs_8" n="8"/><p facs="#facs_8_region_1588023323754_224">
+            <lb facs="#facs_8_line_1588023332797_227" n="N001"/><rubrication>_..._</rubrication>m meuꝫ <choice><expan>uersus</expan><abbr>Ꝟ</abbr></choice> <Drop-Capital>Q</Drop-Capital>ueꝫ <choice><expan>uisurus</expan><abbr>uiſurꝰ</abbr></choice>
+            <lb facs="#facs_8_line_1588023337117_232" n="N002"/>ſu<rubrication>_..._</rubrication>m ego ipſe et <choice><expan>non</expan><abbr>nō</abbr></choice> ali<rubrication>_</rubrication>us<rubrication>_</rubrication> et
+            <lb facs="#facs_8_line_1588023340859_237" n="N003"/>occuli mei conſpecturi<rubrication>_....._</rubrication>ſunt
+            <lb facs="#facs_8_line_1588023344274_242" n="N004"/>Et in <choice><expan>versus</expan><abbr>Ꝟ</abbr></choice> <choice><expan>Kyrie leyson</expan><abbr>Kyriel′</abbr></choice> <choice><expan>responsorium</expan><abbr><rubrication>Ꞧ</rubrication></abbr></choice> <Drop-Capital><rubrication>Q</rubrication><rubrication/></Drop-Capital>ui la<rubrication/>ui la<rubrication>_</rubrication>za
+            <lb facs="#facs_8_line_1588023347707_247" n="N005"/>ru<rubrication>_</rubrication>m reſuſcita<rubrication>_</rubrication>ſti a monumen
+            <lb facs="#facs_8_line_1588023350516_252" n="N006"/>to_ feti_ꝺuꝫ <choice><expan>psalmus</expan><abbr><rubrication>p̄</rubrication></abbr></choice> Tu eis ꝺomine
+            <lb facs="#facs_8_line_1588023353707_257" n="N007"/><choice><expan>Christe leyson</expan><abbr>Xp̄el′</abbr></choice>:<rubrication>_<choice><expan>Kyrie leyson</expan><abbr/></choice></rubrication><choice><expan>Kyrie leyson</expan><abbr>Kyꝛiel′</abbr></choice>:</p><pb facs="#facs_9" n="9"/><p facs="#facs_9_region_1588024984157_361">
+            <lb facs="#facs_9_line_1588024993487_364" n="N001"/>martires et <choice><expan>perducant</expan><abbr>perꝺucāt</abbr></choice> te in ciuitateꝫ
+            <lb facs="#facs_9_line_1588024996879_369" n="N002"/>ſanctaꝫ iheruſaleꝫ <choice><expan>Uersus</expan><abbr><rubrication>Ꝟ</rubrication></abbr></choice> <choice><expan>chorus</expan><abbr>Choꝛꝰ</abbr></choice> angelo
+            <lb facs="#facs_9_line_1588024999670_374" n="N003"/>ruꝫ te ſuſcipiat et cuꝫ lazaro <choice><expan>quondam</expan><abbr>quōꝺā</abbr></choice>
+            <lb facs="#facs_9_line_1588025002829_379" n="N004"/>paupere eternaꝫ habeas <choice><expan>requiem</expan><abbr>re'quꝫ</abbr></choice> <rubrication><choice><expan>antiphonus</expan><abbr>ⱥ</abbr></choice> <choice><expan>in</expan><abbr>ī</abbr></choice> <choice><expan>personae</expan><abbr>ꝑſōn</abbr></choice> <choice><expan>defuncti</expan><abbr>ꝺefucti</abbr></choice> ꝺicat</rubrication>
+            <lb facs="#facs_9_line_1588025005845_384" n="N005"/><Drop-Capital><rubrication>A</rubrication><rubrication/></Drop-Capital>perite michi poꝛtas uiſticie<rubrication/>perite michi poꝛtas uiſticie
+            <lb facs="#facs_9_line_1588025009219_389" n="N006"/>et <choice><expan>ingressus</expan><abbr>ingreſſꝰ</abbr></choice> in eas <choice><expan>confitebor</expan><abbr>cōfiteboꝛ</abbr></choice> <choice><expan>domino</expan><abbr>ꝺn̄o</abbr></choice> <choice><expan>psalmus</expan><abbr><rubrication>p̄</rubrication></abbr></choice></p><pb facs="#facs_10" n="10"/><p facs="#facs_10_region_1588025612546_432">
+            <lb facs="#facs_10_line_1588025619332_435" n="N001"/>ra noua <choice><expan>sint</expan><abbr>ſīt</abbr></choice> omnia coꝛda uoces et
+            <lb facs="#facs_10_line_1588025622893_440" n="N002"/>opera <rubrication>N</rubrication>octis <rubrication>Aꝺ <choice><expan>laudes</expan><abbr>lau</abbr></choice></rubrication> <Drop-Capital><rubrication>U</rubrication><rubrication/></Drop-Capital>erbuꝫ <rubrication/>erbuꝫ <choice><expan>supernum</expan><abbr>ſuꝑnuꝫ</abbr></choice>
+            <lb facs="#facs_10_line_1588025625718_445" n="N003"/><choice><expan>prodiens</expan><abbr>ꝓdiēs</abbr></choice> nec patris linquens ꝺexteraꝫ
+            <lb facs="#facs_10_line_1588025628582_450" n="N004"/>aꝺ <choice><expan>opus</expan><abbr>opꝰ</abbr></choice> ſuuꝫ exiens uenit aꝺ uite
+            <lb facs="#facs_10_line_1588025631514_455" n="N005"/>ueſperaꝫ <rubrication>I</rubrication>n <rubrication><choice><expan>sabbato</expan><abbr>sabb′o</abbr></choice> aꝺ <choice><expan>uesperas</expan><abbr>ūs</abbr></choice></rubrication> <Drop-Capital><rubrication>O</rubrication><rubrication/></Drop-Capital> lux bea<rubrication/> lux bea
+            <lb facs="#facs_10_line_1588025634385_460" n="N006"/>ta trinitas et pꝛincipalis unitas iaꝫ</p><pb facs="#facs_11" n="11"/><pb facs="#facs_12" n="12"/><p facs="#facs_12_region_1588028305708_500">
+            <lb facs="#facs_12_line_1588028315041_503" n="N001"/><choice><expan>claudis</expan><abbr>clauꝺ's</abbr></choice> aperis <rubrication>S</rubrication>it <choice><expan>trinitati</expan><abbr>tnitati</abbr></choice> <rubrication><choice><expan>in</expan><abbr>ī</abbr></choice> <choice><expan>sancti</expan><abbr>ſc̄i</abbr></choice> <choice><expan>antonii</expan><abbr>ātonii</abbr></choice> aꝺ <choice><expan>uesperas</expan><abbr>ueſ.</abbr></choice> <choice><expan>hymnus</expan><abbr>hyꝰ</abbr></choice></rubrication>
+            <lb facs="#facs_12_line_1588028320202_508" n="N002"/><Drop-Capital><rubrication>E</rubrication><rubrication/></Drop-Capital>ngratulemur hodie <rubrication/>ngratulemur hodie <choice><expan>christo</expan><abbr>xpo</abbr></choice> regi <choice><expan>iocumdius</expan><abbr>iocuꝫ</abbr></choice>
+            <lb facs="#facs_12_line_1588028324460_513" n="N003"/><choice><expan>iocumdius</expan><abbr>ꝺiꝰ</abbr></choice> <choice><expan>in</expan><abbr>ī</abbr></choice> <choice><expan>cuius</expan><abbr>cuiꝰ</abbr></choice> aula gloꝛie iaꝫ iubilat <choice><expan>antonius</expan><abbr>an<rubrication>_</rubrication></abbr></choice>
+            <lb facs="#facs_12_line_1588028331678_518" n="N004"/><choice><expan>antonius</expan><abbr>toniꝰ</abbr></choice> <choice><expan>Francisci</expan><abbr><rubrication>F</rubrication>rāciſci</abbr></choice> <rubrication>aꝺ <choice><expan>nona</expan><abbr>nō</abbr></choice></rubrication> <Drop-Capital><rubrication>L</rubrication><rubrication/></Drop-Capital>aus regi plena<rubrication/>aus regi plena
+            <lb facs="#facs_12_line_1588028336835_523" n="N005"/>gauꝺio que merces militantiuꝫ ſeip
+            <lb facs="#facs_12_line_1588028343046_528" n="N006"/>ſuꝫ ꝺat antonio militie <choice><expan>stipendium</expan><abbr>ſtipeꝺiuꝫ</abbr></choice> <rubrication>I</rubrication>n</p><pb facs="#facs_13" n="13"/><p facs="#facs_13_region_1588028984386_581">
+            <lb facs="#facs_13_line_1588028991326_584" n="N001"/>ſacrata <choice><expan>concio</expan><abbr>cōcio</abbr></choice> celi <choice><expan>agminibus</expan><abbr>agminibꝰ</abbr></choice> iuncta tri
+            <lb facs="#facs_13_line_1588028995976_589" n="N002"/>puꝺio <choice><expan>pro</expan><abbr>ꝓ</abbr></choice> uerbi gratia qua <choice><expan>splendent</expan><abbr>ſplēꝺent</abbr></choice>
+            <lb facs="#facs_13_line_1588029000604_594" n="N003"/>omnia terra <choice><expan>pontus</expan><abbr>pōtꝰ</abbr></choice> et ethera <rubrication>P</rubrication>ꝛomiſ
+            <lb facs="#facs_13_line_1588029004274_599" n="N004"/><rubrication>aꝺ <choice><expan>laudes</expan><abbr>lā</abbr></choice></rubrication> <choice><expan>Nouum</expan><abbr><Drop-Capital><rubrication>N</rubrication><rubrication/></Drop-Capital>ouū<rubrication/>ouū</abbr></choice> <choice><expan>sidus</expan><abbr>ſiꝺꝰ</abbr></choice> exoꝛitur <choice><expan>christi</expan><abbr>xp̄i</abbr></choice> pia cle 
+            <lb facs="#facs_13_line_1588029007788_604" n="N005"/>mentia quo tenebꝛoſa pꝛemitur ini
+            <lb facs="#facs_13_line_1588029012182_609" n="N006"/>mici ſeuitia <rubrication>I</rubrication>nſurgere <rubrication>In <choice><expan>sancte</expan><abbr>ſc̄e</abbr></choice> clare aꝺ ueſperas <choice><expan>hymnus</expan><abbr>hyꝰ</abbr></choice></rubrication></p><pb facs="#facs_14" n="14"/><p facs="#facs_14_region_1588029688336_653">
+            <lb facs="#facs_14_line_1588029694150_656" n="N001"/><Drop-Capital><rubrication>C</rubrication><rubrication/></Drop-Capital>oncinat plebs fiꝺeliuꝫ uir <rubrication/>oncinat plebs fiꝺeliuꝫ uir <rubrication>aꝺ <choice><expan>nona</expan><abbr>nō:</abbr></choice></rubrication>
+            <lb facs="#facs_14_line_1588029697659_661" n="N002"/><Drop-Capital><rubrication>G</rubrication><rubrication/></Drop-Capital>enerat uirgo filias <rubrication/>enerat uirgo filias <rubrication>aꝺ <choice><expan>laudes</expan><abbr>lau</abbr></choice></rubrication> <Drop-Capital><rubrication>O</rubrication><rubrication/></Drop-Capital> clara<rubrication/> clara
+            <lb facs="#facs_14_line_1588029701221_666" n="N003"/>luce clarioꝛ <rubrication>aꝺ <choice><expan>uesperas</expan><abbr>us̄</abbr></choice></rubrication> <Drop-Capital><rubrication>E</rubrication><rubrication/></Drop-Capital>n pꝛeclara uirgo<rubrication/>n pꝛeclara uirgo
+            <lb facs="#facs_14_line_1588029704314_671" n="N004"/>clara <rubrication>in <choice><expan>assumptione</expan><abbr>aſſūptoē</abbr></choice> <choice><expan>beate</expan><abbr>btē</abbr></choice> marie <Drop-Capital>A</Drop-Capital></rubrication><Drop-Capital/>ue mariſ ſtella
+            <lb facs="#facs_14_line_1588029707634_676" n="N005"/>ꝺei<rubrication>_...._</rubrication> mater alma <choice><expan>adque</expan><abbr>aꝺqƺ</abbr></choice> <choice><expan>semper</expan><abbr>ſēper</abbr></choice> uirgo
+            <lb facs="#facs_14_line_1588029711902_681" n="N006"/>felix celi poꝛta <rubrication>S</rubrication>umens <rubrication>aꝺ <choice><expan>nona</expan><abbr>nō</abbr></choice> <Drop-Capital>Q</Drop-Capital></rubrication>ueꝫ</p><pb facs="#facs_15" n="15"/><p facs="#facs_15_region_1588030149385_723">
+            <lb facs="#facs_15_line_1588030154514_726" n="N001"/>eternuꝫ tribue <choice><expan>benignus</expan><abbr>benignꝰ</abbr></choice> <choice><expan>scandere</expan><abbr>ſcāꝺere</abbr></choice> celuꝫ
+            <lb facs="#facs_15_line_1588030158769_731" n="N002"/><rubrication>In <choice><expan>sancti</expan><abbr>ſtī</abbr></choice> <choice><expan>francisci</expan><abbr>frāciſci:</abbr></choice> <Drop-Capital>P</Drop-Capital></rubrication>roles ꝺe celo <choice><expan>prodiit</expan><abbr>ꝓꝺiit</abbr></choice> <rubrication>aꝺ <choice><expan>nona</expan><abbr>nō</abbr></choice></rubrication>
+            <lb facs="#facs_15_line_1588030162251_736" n="N003"/><Drop-Capital><rubrication>I</rubrication><rubrication/></Drop-Capital>n <rubrication/>n <choice><expan>celesti</expan><abbr>eelesti</abbr></choice> collegio <rubrication>aꝺ <choice><expan>laudes</expan><abbr>lau</abbr></choice> <Drop-Capital>P</Drop-Capital></rubrication>lauꝺe
+            <lb facs="#facs_15_line_1588030166053_741" n="N004"/>turba <rubrication>aꝺ <choice><expan>uesperas</expan><abbr>ūs</abbr></choice> <Drop-Capital>D</Drop-Capital></rubrication><Drop-Capital/>ecus moꝛuꝫ ꝺux <choice><expan>minorum</expan><abbr>mi</abbr></choice>
+            <lb facs="#facs_15_line_1588030170417_746" n="N005"/><choice><expan>minorum</expan><abbr>noꝵ</abbr></choice> <choice><expan>franciscus</expan><abbr>franciſcꝰ</abbr></choice> tenens bꝛauiuꝫ inte
+            <lb facs="#facs_15_line_1588030174788_751" n="N006"/>rite ꝺatur uite <choice><expan>christe</expan><abbr>xp̄e</abbr></choice> reꝺemptoꝛ <choice><expan>omnium</expan><abbr>omīuꝫ</abbr></choice></p><pb facs="#facs_16" n="16"/><p facs="#facs_16_region_1588030630814_800">
+            <lb facs="#facs_16_line_1588032101351_803" n="N001"/><Drop-Capital><rubrication>A</rubrication><rubrication/></Drop-Capital>ngularis <rubrication/>ngularis <rubrication>aꝺ <choice><expan>primam</expan><abbr>p'm̄</abbr></choice></rubrication> <Drop-Capital><rubrication>I</rubrication><rubrication/></Drop-Capital>am lucis oꝛto<rubrication/>am lucis oꝛto
+            <lb facs="#facs_16_line_1588032104686_808" n="N002"/>ſiꝺere ꝺeuꝫ pꝛecemur ſuplices ut in
+            <lb facs="#facs_16_line_1588032107717_813" n="N003"/>ꝺiurnis <choice><expan>actibus</expan><abbr>actibꝰ</abbr></choice> nos <choice><expan>seruet</expan><abbr>ſ′uet</abbr></choice> <choice><expan>anocetibus</expan><abbr>anocetibꝰ</abbr></choice> <rubrication>aꝺ <choice><expan>terciam</expan><abbr>iīi</abbr></choice></rubrication>
+            <lb facs="#facs_16_line_1588032112144_818" n="N004"/><Drop-Capital><rubrication>N</rubrication><rubrication/></Drop-Capital>unc <rubrication/>unc <choice><expan>sancte</expan><abbr>ſc̄e</abbr></choice> <choice><expan>nobis</expan><abbr>nob′</abbr></choice> <choice><expan>spiritus</expan><abbr>ſp̄s</abbr></choice> <choice><expan>unuum</expan><abbr>unū</abbr></choice> <choice><expan>patri</expan><abbr>pꝛ̄i</abbr></choice> cuꝫ filio
+            <lb facs="#facs_16_line_1588032121467_823" n="N005"/>ꝺignare <choice><expan>promptus</expan><abbr>ꝓptꝰ</abbr></choice> ingeri noſtro <choice><expan>refusus</expan><abbr>refuſꝰ</abbr></choice> pec
+            <lb facs="#facs_16_line_1588032125985_828" n="N006"/>toꝛi <rubrication>aꝺ <choice><expan>sextam</expan><abbr>v̄i</abbr></choice> <Drop-Capital>R</Drop-Capital></rubrication><Drop-Capital/>ectoꝛ <choice><expan>potens</expan><abbr>potēs</abbr></choice> uerax <choice><expan>deus</expan><abbr>ꝺeꝰ</abbr></choice> qui</p><pb facs="#facs_17" n="17"/><p facs="#facs_17_region_1588032663720_870">
+            <lb facs="#facs_17_line_1588032669192_873" n="N001"/><choice><expan>temperas</expan><abbr>tēperas</abbr></choice> <choice><expan>rerum</expan><abbr>reꝵ</abbr></choice> uices <choice><expan>splendore</expan><abbr>ſplēꝺoꝛe</abbr></choice> mane inſ
+            <lb facs="#facs_17_line_1588032672449_878" n="N002"/>truis et <choice><expan>ignibus</expan><abbr>ignibꝰ</abbr></choice> <choice><expan>meridiem</expan><abbr>meriꝺiē</abbr></choice> <rubrication>aꝺ <choice><expan>nonam</expan><abbr>ix̄</abbr></choice></rubrication> <Drop-Capital><rubrication>R</rubrication><rubrication/></Drop-Capital>eruꝫ<rubrication/>eruꝫ
+            <lb facs="#facs_17_line_1588032676953_883" n="N003"/><choice><expan>deus</expan><abbr>ꝺeꝰ</abbr></choice> tenax uigoꝛ <choice><expan>immotus</expan><abbr>īmotꝰ</abbr></choice> in te <choice><expan>permanens</expan><abbr>ꝑmanēs</abbr></choice>
+            <lb facs="#facs_17_line_1588032680538_888" n="N004"/>lucis ꝺiurne <choice><expan>tempora</expan><abbr>tꝑa</abbr></choice> <choice><expan>successibus</expan><abbr>ſucceſſibꝰ</abbr></choice> <choice><expan>determinans</expan><abbr>ꝺetermi</abbr></choice>
+            <lb facs="#facs_17_line_1588032684370_893" n="N005"/><choice><expan>determinans</expan><abbr>nās</abbr></choice> <Drop-Capital><rubrication>T</rubrication><rubrication/></Drop-Capital>elucis ante <rubrication/>elucis ante <choice><expan>terminum</expan><abbr>terminū</abbr></choice> <choice><expan>rerum</expan><abbr>reꝵ</abbr></choice>
+            <lb facs="#facs_17_line_1588032687674_898" n="N006"/>creatoꝛ <choice><expan>poscimus</expan><abbr>poſcimꝰ</abbr></choice> ut ſolita clementia</p><pb facs="#facs_18" n="18"/><pb facs="#facs_19" n="19"/></body></text></TEI>

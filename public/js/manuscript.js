@@ -12,12 +12,17 @@ window.onload = function() {
     // Open introduction modal immediately
     $('#intro-modal').modal('show');
 
+    $('#help-button').click(function() {
+        $('#intro-modal').modal('show');
+    });
+
     // Open modal when manuscript image is clicked
     $("#img-cont").on("click", function() {
         console.log('clicked');
         $('#imagepreview').attr('src', $('#manu-img').attr('src')); // here asign the image to the modal when the user click the enlarge link
         $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
      });
+
 };
 
 function nextPage() {
@@ -42,6 +47,7 @@ function replaceContent(reqFile) {
         // Set up the tooltips for incoming abbreviations
         $('[data-toggle="tooltip"]').tooltip();
     });
+    $('#page-number').html('Page '+ reqFile.replace('ARC_manuscript_1_',''));
 
     // Fancy fade in and out
     /*$("#manu-img").fadeOut("slow",function(){
