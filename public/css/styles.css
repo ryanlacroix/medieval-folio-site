@@ -29,25 +29,38 @@ h2:not(:first-of-type) {
 }
 
 /* Open dropdown menus on hover */
-.dropdown:hover > .dropdown-menu {
-  display: block;
+.dropdown-hover:hover > .dropdown-menu-hover {
+  display: block!important;
 }
-.dropdown > .dropdown-toggle:active {
+.dropdown-hover > .dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
   pointer-events: none;
 }
-.dropdown-menu {
+.dropdown-menu-hover {
   transition: 1s;
   top: 80%!important;
   background-color:rgba(121, 114, 104, 1)!important;
 }
-.dropdown-item {
+.dropdown-item-nav {
   transition: 0.3s;
   color:rgba(255, 255, 255, 0.7)!important;
 }
-.dropdown-item:hover {
+.dropdown-item-nav:hover {
   color: white;
   background-color:  rgb(83, 78, 71)!important;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+#page-number {
+  transition:0.5s;
+}
+#page-number:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 4px rgba(0,0,0,0.39);
 }
 
 /* Account for the fixed navbar */
@@ -55,6 +68,7 @@ body {
   padding-top: 90px;
   font-size: 10px;
   background-image: url("/img/spikes.png");
+  background-attachment: fixed;
 }
 
 .container-sm {
@@ -122,12 +136,15 @@ body {
   }
 }
   
-/* Transcriptions */
+/* Transcription Page */
 
 [rubricated="true"] {
   color: red;
 }
 
+mark {
+  background-color: rgb(249, 243, 210)!important;;
+}
 #transcr-main-content {
   margin-left: 0px!important;
   margin-right: 0px!important;
@@ -141,7 +158,6 @@ span[data-toggle="tooltip"]:hover {
 [dropCap] {
   font-size: xx-large;
   line-height:0!important;
-  /*font-weight: 300;*/
 }
 
 #currentPage {
