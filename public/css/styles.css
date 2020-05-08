@@ -68,6 +68,7 @@ body {
   padding-top: 90px;
   font-size: 10px;
   background-image: url("/img/spikes.png");
+  background-attachment: fixed;
 }
 
 .container-sm {
