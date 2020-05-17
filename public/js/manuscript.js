@@ -25,13 +25,31 @@ window.onload = function() {
         $('#imagemodal').modal('show');
      });
 
-     $("#page-selector li a").click(function(){
+     /*$("#page-selector a").click(function(){
         var selText = 'bob';
         console.log( selText);
         $(this).parents('.dropdown').find('.dropdown-toggle').val(selText);
-      });
+      });*/
+
+      $('#page-selector-dropdown').change(function() {
+          console.log('heya');
+      })
+
+      
 
       populatePageSelector();
+
+      $('#page-selector-dropdown a').click(function (e) {
+        var sVal = e.currentTarget.text;
+        console.log(sVal);
+        sVal.includes('V') ? currLetter = 'V' : currLetter = 'R';
+        currPage = Number(sVal.replace('V','').replace('R',''));
+        //console.log(currPage);
+        //console.log(currLetter);
+        reqFile = 'ARC_manuscript_1_'+String(currPage)+ currLetter;
+        replaceContent(reqFile);
+        
+      });
 };
 
 /* Hide prev/next button on first/last page */

@@ -96,14 +96,6 @@
             <span id="page-number" href="#" data-toggle="dropdown" class="active">Manuscript</span>
 
           <div id="page-selector-dropdown" class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="manuscript.html">Transcription<span class="sr-only">(current)</span></a>
-            <a class="dropdown-item" href="introduction.html">Introduction</a>
-            <a class="dropdown-item" href="physicalDescription.html">Physical Description</a>
-            <a class="dropdown-item" href="contents.html">Contents</a>
-            <a class="dropdown-item" href="manuscript.html">Transcription<span class="sr-only">(current)</span></a>
-            <a class="dropdown-item" href="introduction.html">Introduction</a>
-            <a class="dropdown-item" href="physicalDescription.html">Physical Description</a>
-            <a class="dropdown-item" href="contents.html">Contents</a>
           </div>
 
             
@@ -113,7 +105,7 @@
         </div>
       </div>
     </div>
-
+    <hr/>
   </div>
 
   </div>
@@ -142,23 +134,29 @@
   <!-- intro modal -->
   <div class="modal fade" id="intro-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog" style="max-width: 70%">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
               class="sr-only">Close</span></button>
 
         </div>
-        <div class="modal-body manu-img-modal">
-          <h2>Interactive Transcription</h2>
-
+        <div class="modal-body">
+          <h2 class="text-center">Interactive Transcription</h2>
+          <hr/>
           <div>
-            This interactive transcription allows blah blah <br /> <br />
-            <span dropCap="true">D</span>rop capitals are represented with letters twice as large as the surrounding
-            text.<br />
-            <mark>Highlighted text</mark> indicates an abbreviation. Hover over these to see the expanded form.<br />
-            <span rubricated="true">Red</span> text indicates rubrication.<br />
+            <div style="padding-left:20px;">Welcome to the interactive transcription for the Carleton Antiphonary.</div> <br /><br />
+            <ul style="padding-right:10px;">
+            <li><span dropCap="true">D</span>rop capitals are represented with letters twice as large as the surrounding
+            text.</li><br />
+            <li><span data-html="true" data-toggle="tooltip" title="" data-original-title="<em>Expanded text</em>"><mark><abbr>Highlighted text</abbr></mark></span> indicates an abbreviation.<br/> Hover over these to see the expanded form.</li><br />
+          
+            <li><span rubricated="true">Red</span> text indicates rubrication.</li><br/>
 
+            <li><span>Click the <span class="lead">Folio Number</span> (bottom) to view a specific page.</span></li>
+          </ul>
+          <br />
+          <div style="padding-left:20px;">View this message at any time by clicking <span style="color:gray;">help</span> in the top right corner of the viewer.</div>
 
           </div>
         </div>
