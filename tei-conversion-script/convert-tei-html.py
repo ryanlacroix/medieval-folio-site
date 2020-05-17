@@ -18,11 +18,15 @@ from fuzzywuzzy import process
 
 
 try :
-    filename = sys.argv[1]
-    root = BeautifulSoup(open("./tei/"+filename,
+    #filename = sys.argv[1]
+    #filename = "./tei-conversion-script/tei/Ms__1.xml"
+    filename = "./tei-conversion-script/tei/missing_folios_xml_draft_1.xml"
+
+    root = BeautifulSoup(open(filename,
                           encoding="utf-8"),'xml')
-except:
-    print("Provide a TEI file to run this script on.\n Eg python3 convert-tei-to-html.py Ms__1.xml")
+except Exception as e:
+    print(e)
+    print("Provide a TEI file to run this script on.\n Example usage: python3 convert-tei-to-html.py Ms__1.xml")
     exit()
 #filename = "Ms__1.xml"
 
@@ -40,6 +44,12 @@ for facs in root.find_all('facsimile'):
 
 # In[202]:
 
+# Preprocess all choice elements
+for choice in root.findAll('choice'):
+    abbr = str(choice.find('abbr'))
+    expan = choice.find('expan').text
+    new_choice = BeautifulSoup('<span data-html="true" data-toggle="tooltip" title="<em>' +expan+ '</em>"><mark>' +abbr+ '</mark></span>')
+    choice.replace_with(new_choice.span)
 
 # Split the dataset by page
 for p in root.find_all('p'):
@@ -53,10 +63,12 @@ for p in root.find_all('p'):
         
         # Walk through the contents of this line until the next line is found
         for sib in lb.next_siblings:
+            
             if type(sib) == element.Tag:
                 if sib.has_attr('n'):
                     break
                 # Handle abbreviations
+                """
                 if sib.name == 'choice':
                     # Handle rubrications inside abbrs
                     if sib.find('rubrication'):
@@ -68,6 +80,13 @@ for p in root.find_all('p'):
                     expan = sib.find('expan').text
                     lb_string += '<span data-html="true" data-toggle="tooltip" title="<em>' +expan+ '</em>"><mark>' +abbr+ '</mark></span>'
                     continue
+
+                elif sib.findChildren('choice'):
+                    abbr = sib.find('abbr').text
+                    expan = sib.find('expan').text
+                    lb_string += '<span data-html="true" data-toggle="tooltip" title="<em>' +expan+ '</em>">' +abbr+ '</span>' 
+                """
+            
             lb_string += str(sib)
         lb_string += '</div>'
         page_str += lb_string
@@ -99,7 +118,7 @@ for p in root.find_all('p'):
 
     filename_fixed = filename.replace('.JPG','.html').replace('.jpg',
             '.html').replace(' (duo)','').replace(' (bis)','')
-    with open("./output/" + filename_fixed, "wb") as outfile:
+    with open("./tei-conversion-script/output/" + filename_fixed, "wb") as outfile:
         outfile.write(page_str.encode("utf-8"))
 
     print('--------page successsful--------')

@@ -62,6 +62,9 @@ h2:not(:first-of-type) {
   cursor: pointer;
   text-shadow: 0px 0px 4px rgba(0,0,0,0.39);
 }
+#page-selector-dropdown a {
+  cursor: default;
+}
 
 /* Account for the fixed navbar */
 body {
@@ -139,11 +142,14 @@ body {
 /* Transcription Page */
 
 [rubricated="true"] {
-  color: red;
+  color: red!important;
 }
 
 mark {
   background-color: rgb(249, 243, 210)!important;;
+}
+[rubricated="true"] mark {
+  color: red!important;
 }
 #transcr-main-content {
   margin-left: 0px!important;
