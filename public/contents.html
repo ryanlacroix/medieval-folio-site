@@ -29,10 +29,10 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar">
         <!-- bg-dark-->
-        <a class="navbar-brand my-auto" href="#">
+        <a class="navbar-brand my-auto" href="#" style="display:flex;">
             <img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45"
-                class="d-inline-block rounded icon-raised" alt="">
-                Carleton Antiphonary</a>
+              class="d-inline-block rounded icon-raised" alt="">
+            <span id="page-title"><span class="page-title-first-letter">C</span>arleton <span class="page-title-first-letter">A</span>ntiphonary</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,29 +40,29 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto">
                 <li><a class="nav-item nav-link" href="home.html">Home</a></li>
-                <li class="dropdown">
+                <li class="dropdown dropdown-hover">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link active">Manuscript <b
                             class="caret"></b></a>
 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="manuscript.html">Transcription</a>
-                        <a class="dropdown-item" href="introduction.html">Introduction</a>
-                        <a class="dropdown-item" href="physicalDescription.html">Physical Description</a>
-                        <a class="dropdown-item" href="contents.html">Contents<span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item dropdown-item-nav" href="manuscript.html">Transcription</a>
+                        <a class="dropdown-item dropdown-item-nav" href="introduction.html">Introduction</a>
+                        <a class="dropdown-item dropdown-item-nav" href="physicalDescription.html">Physical Description</a>
+                        <a class="dropdown-item dropdown-item-nav" href="contents.html">Contents<span class="sr-only">(current)</span></a>
                     </div>
 
                 </li>
-                <li class="dropdown">
+                <li class="dropdown dropdown-hover">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link">About <b
                             class="caret"></b></a>
 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="edition.html">Edition</a>
-                        <a class="dropdown-item" href="#">Notes</a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item dropdown-item-nav" href="edition.html">Edition</a>
+                        <a class="dropdown-item dropdown-item-nav" href="notes.html">Notes</a>
                     </div>
 
                 </li>
-                <li><a class="nav-item nav-link" href="index.html">Index</a></li>
+                 
             </ul>
         </div>
     </nav>

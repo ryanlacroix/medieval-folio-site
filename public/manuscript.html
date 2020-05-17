@@ -34,10 +34,10 @@
 <body>
   <nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar">
     <!-- bg-dark-->
-    <a class="navbar-brand my-auto" href="#">
+    <a class="navbar-brand my-auto" href="#" style="display:flex;">
       <img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45"
         class="d-inline-block rounded icon-raised" alt="">
-        Carleton Antiphonary</a>
+      <span id="page-title"><span class="page-title-first-letter">C</span>arleton <span class="page-title-first-letter">A</span>ntiphonary</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -45,28 +45,28 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav ml-auto">
         <li><a class="nav-item nav-link" href="home.html">Home</a></li>
-        <li class="dropdown">
+        <li class="dropdown dropdown-hover">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link active">Manuscript <b
               class="caret"></b></a>
 
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="manuscript.html">Transcription<span class="sr-only">(current)</span></a>
-            <a class="dropdown-item" href="introduction.html">Introduction</a>
-            <a class="dropdown-item" href="physicalDescription.html">Physical Description</a>
-            <a class="dropdown-item" href="contents.html">Contents</a>
+          <div class="dropdown-menu dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item dropdown-item-nav" href="manuscript.html">Transcription<span class="sr-only">(current)</span></a>
+            <a class="dropdown-item dropdown-item-nav" href="introduction.html">Introduction</a>
+            <a class="dropdown-item dropdown-item-nav" href="physicalDescription.html">Physical Description</a>
+            <a class="dropdown-item dropdown-item-nav" href="contents.html">Contents</a>
           </div>
 
         </li>
-        <li class="dropdown">
+        <li class="dropdown dropdown-hover">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link">About <b class="caret"></b></a>
 
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="edition.html">Edition</a>
-            <a class="dropdown-item" href="#">Notes</a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item dropdown-item-nav" href="edition.html">Edition</a>
+            <a class="dropdown-item dropdown-item-nav" href="notes.html">Notes</a>
           </div>
 
         </li>
-        <li><a class="nav-item nav-link" href="index.html">Index</a></li>
+         
       </ul>
     </div>
   </nav>
@@ -91,14 +91,21 @@
         <div class="row" style="margin-top:auto;">
           <div  class="col-sm-4 text-dark" style="display:flex;justify-content:flex-end;"><button id="prev-button" type="button"
               onclick="prevPage();" class="btn btn-primary my-3 manu-btns">Back</button></div>
-          <div id="page-number" class="col-sm-4 lead" style="display:flex;justify-content:center;align-items:center;">Page 1V
+          <div  class="col-sm-4 lead dropup" style="display:flex;justify-content:center;align-items:center;"><!--Page 1V-->
+            
+            <span id="page-number" href="#" data-toggle="dropdown" class="active">Manuscript</span>
+
+          <div id="page-selector-dropdown" class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenuButton">
+          </div>
+
+            
           </div>
           <div  class="col-sm-4 text-dark" style="display:flex;justify-content:flex-start;"><button id="next-button" type="button"
               onclick="nextPage();" class="btn btn-primary my-3 manu-btns">Next</button></div>
         </div>
       </div>
     </div>
-
+    <hr/>
   </div>
 
   </div>
@@ -127,23 +134,29 @@
   <!-- intro modal -->
   <div class="modal fade" id="intro-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog" style="max-width: 70%">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
               class="sr-only">Close</span></button>
 
         </div>
-        <div class="modal-body manu-img-modal">
-          <h2>Interactive Transcription</h2>
-
+        <div class="modal-body">
+          <h2 class="text-center">Interactive Transcription</h2>
+          <hr/>
           <div>
-            This interactive transcription allows blah blah <br /> <br />
-            <span dropCap="true">D</span>rop capitals are represented with letters twice as large as the surrounding
-            text.<br />
-            <mark>Highlighted text</mark> indicates an abbreviation. Hover over these to see the expanded form.<br />
-            <span rubricated="true">Red</span> text indicates rubrication.<br />
+            <div style="padding-left:20px;">Welcome to the interactive transcription for the Carleton Antiphonary.</div> <br /><br />
+            <ul style="padding-right:10px;">
+            <li><span dropCap="true">D</span>rop capitals are represented with letters twice as large as the surrounding
+            text.</li><br />
+            <li><span data-html="true" data-toggle="tooltip" title="" data-original-title="<em>Expanded text</em>"><mark><abbr>Highlighted text</abbr></mark></span> indicates an abbreviation.<br/> Hover over these to see the expanded form.</li><br />
+          
+            <li><span rubricated="true">Red</span> text indicates rubrication.</li><br/>
 
+            <li><span>Click the <span class="lead">Folio Number</span> (bottom) to view a specific page.</span></li>
+          </ul>
+          <br />
+          <div style="padding-left:20px;">View this message at any time by clicking <span style="color:gray;">help</span> in the top right corner of the viewer.</div>
 
           </div>
         </div>
