@@ -32,6 +32,7 @@ window.onload = function () {
         currPage = Number(sVal.replace('V', '').replace('R', ''));
         reqFile = 'ARC_manuscript_1_' + String(currPage) + currLetter;
         replaceContent(reqFile);
+        checkEdges();
     });
 };
 

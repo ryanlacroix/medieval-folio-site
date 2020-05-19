@@ -19,8 +19,8 @@ def replace_nth(string, sub, wanted, n):
 
 try :
     #filename = sys.argv[1]
-    filename = "./tei-conversion-script/tei/Ms__1.xml"
-    #filename = "./tei-conversion-script/tei/missing_folios_xml_draft_1.xml"
+    #filename = "./tei-conversion-script/tei/Ms__1.xml"
+    filename = "./tei-conversion-script/tei/missing_folios_xml_draft_1.xml"
 
     orig_text = ""
     with open(filename, "rb") as infile:
@@ -30,7 +30,6 @@ try :
         
         for (phrase, term, _term) in re.findall(pattern, orig_text):
             print(phrase)
-            #phrase_fixed = phrase[0:phrase.index('</abbr>')+7]
             phrase_fixed = replace_nth(phrase, term, '', 2)
             print(phrase_fixed,'\n')
             orig_text = orig_text.replace(phrase,phrase_fixed)
