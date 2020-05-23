@@ -13,7 +13,7 @@ app.use(express.static('public'));
 // Digital Edition (exhibit page)
 app.get('/', (req, res) => {
     console.log(req);
-    res.sendFile(path.join(__dirname, './public', 'home.html'));
+    res.sendFile(path.join(__dirname, './public', 'index.html'));
 })
 
 app.get('*', function(req, res){

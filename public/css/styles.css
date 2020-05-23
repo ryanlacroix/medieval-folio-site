@@ -7,6 +7,41 @@ p {
   margin-top: 1rem;
 }
 
+td {
+  padding-top:19px!important;
+  padding-bottom:19px!important;
+}
+
+.image-caption {
+  padding-top: 10px;
+  padding-bottom:15px;
+  color: rgb(144, 144, 144);
+  text-align: center;
+}
+
+.figure-intext {
+  margin-top: 50px;
+}
+
+.horiz-images {
+  display:flex;
+  justify-content:space-between;
+}
+@media (min-width: 576px) {
+  .horiz-images {
+    /*  set them vertical */ 
+    flex-direction:column;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .horiz-images {
+    /*  set them vertical */ 
+    flex-direction:row;
+  }
+}
+
+
 h2:not(:first-of-type) {
   margin-top:50px;
 }
