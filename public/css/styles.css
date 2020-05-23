@@ -2,6 +2,14 @@ html {
     font-size: 1rem;
 }
 
+h5, h4, h3, h2, h1 {
+  font-family: 'Lusitana', serif;
+}
+
+.top-heading {
+  padding-top:30px;
+}
+
 p {
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -10,6 +18,19 @@ p {
 td {
   padding-top:19px!important;
   padding-bottom:19px!important;
+  vertical-align: middle!important;;
+}
+thead {
+  text-align: center;
+}
+thead tr {
+  color: rgb(121, 114, 104);
+  letter-spacing: 1px;
+  font-weight: 500;
+  background-color: rgb(251, 251, 251);
+}
+#physdesc-table-4 img{
+  max-width: 100px;
 }
 
 .image-caption {
@@ -19,8 +40,15 @@ td {
   text-align: center;
 }
 
+td .image-caption {
+  padding-bottom:0px;
+}
+
 .figure-intext {
   margin-top: 50px;
+}
+.resp-table {
+  margin-bottom:40px!important;
 }
 
 .horiz-images {
@@ -38,6 +66,24 @@ td {
   .horiz-images {
     /*  set them vertical */ 
     flex-direction:row;
+    width:90%;
+    margin:auto;
+  }
+  .resp-table {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (min-width: 991px) {
+  .horiz-images {
+    /*  set them vertical */ 
+    flex-direction:row;
+    width:70%;
+    margin:auto;
+  }
+  .resp-table {
+    width: 80%;
+    margin: auto;
   }
 }
 
@@ -51,6 +97,7 @@ h2:not(:first-of-type) {
   top: 10px;
   font-size: x-large;
   padding-left: 7px;
+  font-family: 'Lusitana', serif;
 }
 .page-title-first-letter {
   font-size: xx-large;
