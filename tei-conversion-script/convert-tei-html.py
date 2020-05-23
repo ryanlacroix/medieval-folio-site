@@ -7,12 +7,34 @@ import sys
 from bs4 import BeautifulSoup
 from bs4 import element
 
+import re
+
+def replace_nth(string, sub, wanted, n):
+    where = [m.start() for m in re.finditer(sub, string)][n-1]
+    before = string[:where]
+    after = string[where:]
+    after = after.replace(sub, wanted, 1)
+    new_string = before + after
+    return new_string
+
 try :
     #filename = sys.argv[1]
-    filename = "./tei-conversion-script/tei/Ms__1.xml"
-    #filename = "./tei-conversion-script/tei/missing_folios_xml_draft_1.xml"
+    #filename = "./tei-conversion-script/tei/Ms__1.xml"
+    filename = "./tei-conversion-script/tei/missing_folios_xml_draft_1.xml"
 
-    root = BeautifulSoup(open(filename, encoding="utf-8"),'xml')
+    orig_text = ""
+    with open(filename, "rb") as infile:
+        orig_text = infile.read().decode('utf-8')
+        
+        pattern = re.compile(r'(<\/Drop-Capital>(.*?)<rubrication\/>(\2))')
+        
+        for (phrase, term, _term) in re.findall(pattern, orig_text):
+            print(phrase)
+            phrase_fixed = replace_nth(phrase, term, '', 2)
+            print(phrase_fixed,'\n')
+            orig_text = orig_text.replace(phrase,phrase_fixed)
+
+    root = BeautifulSoup(orig_text)
 except Exception as e:
     print(e)
     print("Provide a TEI file to run this script on.\n Example usage: python3 convert-tei-to-html.py Ms__1.xml")
@@ -73,6 +95,9 @@ for p in root.find_all('p'):
 
     filename_fixed = filename.replace('.JPG','.html').replace('.jpg',
             '.html').replace(' (duo)','').replace(' (bis)','')
+    if page_str == '<div id="currentPage"></div>':
+        # Skip empty pages
+        continue
     with open("./tei-conversion-script/output/" + filename_fixed, "wb") as outfile:
         outfile.write(page_str.encode("utf-8"))
         num_files += 1
