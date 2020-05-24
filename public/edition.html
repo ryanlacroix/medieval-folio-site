@@ -34,7 +34,7 @@
 <body>
 	<nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar">
 		<!-- bg-dark-->
-		<a class="navbar-brand my-auto" href="#" style="display:flex;">
+		<a class="navbar-brand my-auto" href="index.html" style="display:flex;">
 			<img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45"
 				class="d-inline-block rounded icon-raised" alt="">
 			<span id="page-title"><span class="page-title-first-letter">C</span>arleton <span
@@ -51,11 +51,11 @@
 							class="caret"></b></a>
 
 					<div class="dropdown-menu dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item dropdown-item-nav" href="manuscript.html">Transcription</a>
 						<a class="dropdown-item dropdown-item-nav" href="introduction.html">Introduction</a>
 						<a class="dropdown-item dropdown-item-nav" href="physicalDescription.html">Physical
 							Description</a>
 						<a class="dropdown-item dropdown-item-nav" href="contents.html">Contents</a>
+						<a class="dropdown-item dropdown-item-nav" href="manuscript.html">Transcription</a>
 					</div>
 
 				</li>
@@ -78,474 +78,552 @@
 
 	<!-- Page content -->
 	<div class="container-sm px-5">
-		<h1 class="top-heading">The Digital Edition</h1>
-		<hr />
-		<br />
-		<h3>How to read this edition</h3>
-		<p>
-			This transcription of the manuscript&rsquo;s text is a visual reproduction, and a diplomatic edition. In
-			this
-			digital edition, I have placed the images of each manuscript page on the left hand side. On the right side,
-			I offer a transcription which does not regularize or modernize the Latin, but rather retains scribal
-			mistakes, abbreviated characters, and punctuation as it exists in the manuscript. Given the unique nature of
-			liturgical manuscripts, I did not seek to establish a comparative critical edition&mdash;i.e. The product of
-			studying multiple manuscripts to construct a final version with the cumulative information from each codex.
-			Rather, my edition, as it lives in the digital realm, seeks to let the user guide their interaction with the
-			text. They can consult the original manuscript (in digitized images), they can consult a direct
-			transcription of the text alongside the images, they can also read the alternate text with abbreviations
-			unpacked and punctuation regularized. Given the potential for non-linear usage, I consider my edition a
-			hypertext edition, because the linked presentation of information achieves through the digital format
-			something unlike traditional print texts.<a href="#_ftn1" name="_ftnref1"><sup><sup>[1]</sup></sup></a>
-		</p>
-		<p>&nbsp;</p>
-		<h5>Privileging transcription over finished edition</h5>
-		<p>
-			The benefit of a transcription over a finished edition is that researchers can easily study the
-			palaeographical and codicological aspects of this manuscript through the non-linear use I have described
-			above. This decision was made because Carleton Antiphonary, like most liturgical manuscripts, is unique in
-			its physical composition not only by the nature of handmade work but also because so many liturgical
-			manuscripts were distinct products of their time, location, and monastic tradition. The decision to make the
-			transcription and edition digital was in large part a question of access, especially because Carleton
-			University, as a Canadian institution, must rely heavily on digital content for the study of European
-			manuscripts.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Digital Format</h5>
-		<p>
-			Because of the digital format, the text can be shown in numerous ways without compromising user experience,
-			i.e. the reader does not need to constantly refer to the index and appendices at the back of a paper copy to
-			make sense of the text. As you will see, in order to unpack an abbreviation or symbol as presented in the
-			manuscript in the transcription, the user must simply hover over the word or symbol to have it unpacked
-			(with the exception of common usage symbols, as listed in table 7, below).
-		</p>
-		<p>&nbsp;</p>
-		<h5>Abbreviations</h5>
-		<p>
-			The table below outlines the abbreviations used throughout the Carleton Antiphonary and explains which
-			Unicode symbols were used to mimic the manuscript&rsquo;s forms. The expansion or modern equivalent are also
-			given, with multiple possible expansions where applicable. The rightmost column displays whether the
-			abbreviations have been unpacked in the hypertext edition. Note that symbols that replace single letterforms
-			(e.g. ꝛ, ꝺ, and Ꝫ) are not unpacked in this transcription but abbreviations with two or more letters are
-			unpacked to maintain clarity for the researcher while using this tool.
-		</p>
-		<p>&nbsp;</p>
-		<div class="resp-table">
-			<h6>Table 7: Abbreviations for the hypertext edition of the Carleton Antiphonary</h6>
-			<table class="table">
-				<thead style="text-align:left;">
-					<tr>
-						<td>
-							<span>Symbol</span>
-						</td>
-						<td>
-							<span>Type</span>
-						</td>
-						<td>
-							<span>Expansion or modern equivalent</span>
-						</td>
-						<td>
-							<span>Unpacked?</span>
-						</td>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<span>ꝛ</span>
-						</td>
-						<td>
-							<span>Latin Rotunda r</span>
-						</td>
-						<td>
-							<span>r</span>
-						</td>
-						<td>
-							<span>No</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ꝺ</span>
-						</td>
-						<td>
-							<span>Latin uncial d</span>
-						</td>
-						<td>
-							<span>d</span>
-						</td>
-						<td>
-							<span>No</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>Ꝟ</span>
-						</td>
-						<td>
-							<span>Latin capital V with stroke</span>
-						</td>
-						<td>
-							<span>Versus/ Versum</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ꝯ</span>
-						</td>
-						<td>
-							<span>Latin abbreviation for con</span>
-						</td>
-						<td>
-							<span>-con</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>Ꝫ</span>
-						</td>
-						<td>
-							<span>Rotunda m, oriented vertically</span>
-						</td>
-						<td>
-							<span>-m</span>
-						</td>
-						<td>
-							<span>No</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ꝑ</span>
-						</td>
-						<td>
-							<span>Latin abbreviation for pre</span>
-						</td>
-						<td>
-							<span>pre / per</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>qƺ</span>
-						</td>
-						<td>
-							<span>Latin abbreviation que</span>
-						</td>
-						<td>
-							<span>-que</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ꝓ</span>
-						</td>
-						<td>
-							<span>Rotunda pr</span>
-						</td>
-						<td>
-							<span>pr- / pro-</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ꞅ</span>
-						</td>
-						<td>
-							<span>Long s</span>
-						</td>
-						<td>
-							<span>s</span>
-						</td>
-						<td>
-							<span>No</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ꝵ</span>
-						</td>
-						<td>
-							<span>Latin abbreviation rum</span>
-						</td>
-						<td>
-							<span>-rum</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ͻ</span>
-						</td>
-						<td>
-							<span>Latin inverted c</span>
-						</td>
-						<td>
-							<span>con-</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>ꝙ</span>
-						</td>
-						<td>
-							<span>Latin que</span>
-						</td>
-						<td>
-							<span>que</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>xp</span>
-						</td>
-						<td>
-							<span>Chi rho</span>
-						</td>
-						<td>
-							<span>Chr-</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<span>⁊</span>
-						</td>
-						<td>
-							<span>Tironian &lsquo;et&rsquo;</span>
-						</td>
-						<td>
-							<span>et</span>
-						</td>
-						<td>
-							<span>Yes</span>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<p>&nbsp;</p>
-		<h5>Image files</h5>
-		<p>
-			The images found on the website were originally produced in TIFF, which were far too large (approximately 5
-			-
-			6 Mi each) even for modern web standards. From a web-friendly point of view, the images had to be cropped
-			and resized to allow for quick load times on the website. Although the TIFF files would have provided
-			extremely clear images for the scrutiny of minute details of the manuscript that in-depth manuscript study
-			often demands, this decision came from a user experience (UX) stand-point to ensure compatibility with the
-			widest range of browsers. That being said, the images are still high-quality (362 KB, 685 x 923) and useful
-			for study. Furthermore, they are available for download so scholars may quickly and frequently access them.
-		</p>
-		<p>
-			These images were taken with a digital
-			camera, (Canon EOS REBEL T5i) with less than ideal lighting, but in future we hope to produce scans of the
-			manuscript. Unfortunately, we did not have access to a large enough scanner at the time of this project.
-			This presented unique challenges because the orientation, lighting, and dimensions of each image were
-			distinct. In other words, each of the 148 original images would have to be manually manipulated. Therefore,
-			the batch image processor IrfanView, a freeware (proprietary but free to use) software for Windows users,
-			was used to resize the images to a standard size. This allowed the website to display the folios in a
-			streamline and consistent fashion, giving the reader a book-like experience despite the vastly different
-			sizes and orientation of the original images. As you will see, the result is not perfect, but provides a far
-			more attractive product in the final version.
-		</p>
-		<p>&nbsp;</p>
-		<h3>3.2 Web Edition vs Paper Version</h3>
-		<p>
-			When I was first introduced to the Carleton Antiphonary in 2016 Carleton University&rsquo;s Archives and
-			Research Collections had not yet digitally catalogued any of their medieval materials, nor do they exist in
-			the library's catalogue. For researchers, it was as if the manuscript did not exist. This project sought to
-			address this problem by creating an online edition for the codex, circumventing the issues with access
-			intrinsic to the printed edition. The main issue that was apparent to me was access to the edition. It could
-			be written in printed or PDF format and lay hidden in a university&rsquo;s catalogue, where researchers from
-			both Carleton and elsewhere may never know of its existence, closing the initial circle that I sought to
-			address. But a digital project, connected to a popular public database such as the Cantus Database, would
-			have more visibility and would contribute to the mission of bringing this manuscript to light.<sup> <a
-					href="#_ftn2" name="_ftnref2"><sup>[2]</sup></a></sup>
-		</p>
-		<p>&nbsp;</p>
-		<h5>Broader Access</h5>
-		<p>
-			Some of these fundamental issues are that the commentary and glossary are usually separate from the
-			transcription, segregated to the end of the paperback, often rendering it cumbersome for reference.
-			Furthermore, a printed work must be produced, published, and distributed before it is accessible to
-			scholars. Electronic editions, however, change this process &ndash; making editions not a product but a
-			process that can be published online while in progress to allow other scholars to make use of the work and
-			possibly to contribute to it. In essence, once the work is online and accessible (usually through an
-			institution) it is catalogued and therefore referenceable, unlike projects which are left to languish
-			gathering dust within the shelves upon shelves of uncatalogued theses.
-		</p>
-		<p>
-			Scholars of medieval liturgy and codicology can know of the manuscript&rsquo;s existence and perhaps reveal
-			some of its long-held secrets through this diplomatic edition. Found on this bespoke website created with
-			the purpose of showcasing this manuscript in ways suited to its study as both object and text.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Cantus Index</h5>
-		<p>
-			Cantus is a manuscript database used to reference medieval and early modern Latin ecclesiastical sources.
-			The
-			resource was created by the University of Waterloo and is managed collaboratively by Debra Lacoste
-			(University of Waterloo) and Jan Kol&aacute;ček (Charles University, Prague). It has nine major databases
-			connected to it from across the globe and over 150 sources. Each source is indexed according to its chants
-			and connected with any concordant chants from other sources. Each chant has a unique Cantus ID number that
-			is used to reference the list of chants in the Cantus Index, a catalogue for the Cantus Database. In the
-			Manuscript Reading (Ms spelling) transcription I have identified each segment of the manuscript by the
-			appropriate Cantus ID (see Appendices).<a href="#_ftn3" name="_ftnref3"><sup><sup>[3]</sup></sup></a> This
-			allows researchers to quickly analyse the various parts of the manuscript and find contextual data for that
-			particular segment. Cantus provides details such as associated feast days, genre, position in office or
-			mass, and a list of the concordances for each chant. Users may further research by perusing the hundreds of
-			manuscript holdings digitally uploaded by institutions onto Cantus Database through the identifiers.
-			Interconnectivity with scholarly platforms such as Cantus which have already made waves in the digital realm
-			is fundamental to this project. It allows the website to be both accessible as a website and flexible as a
-			tool to meet the growing demands of modern scholarship.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Open Source</h5>
-		<p>
-			This project embraces the idea of collaboration and transparency in the digital realm and builds upon the
-			developments of digital academics in the field of manuscript studies. That is why all stages of this project
-			were accomplished using largely open source and free to use software. Furthermore, all the code purpose
-			written for this project is available to others to use and modify for their own future projects via Github.
-		</p>
-		<p>&nbsp;</p>
-		<h3>3.3 Stages of Production</h3>
-		<p>
-			In order to illustrate the process of creating a born-digital manuscript edition, I provided below a roadmap
-			for my project. I discuss the methods and guidelines I consulted, and I reflect on the limitations and
-			advantages of the various software and platforms I used. For more information on editorial decisions I made
-			please see <em>how to read this edition</em>.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Using Transkribus</h5>
-		<p>
-			Before I could begin to pull my research into a cohesive place, I needed a workable transcription of the
-			manuscript. In order to create a digital transcription of the manuscript, I needed a robust tool that could
-			serve over 130 high quality images and would preferably be an open access (free to use) tool. Developers at
-			the University of Innsbruck, Austria, had developed a tool, <em>Transkribus</em>, that met nearly all my
-			specifications. This tool automatically recognizes historical written and printed text and builds an
-			intuitive structure around textual elements to make transcription easier. Importantly, it hosts users&rsquo;
-			images to the Transkribus server to create &ldquo;private collections&rdquo; that limit access to the
-			original user and those they chose to share their collection with. Moreover, the tool allows scholars to
-			write in any language using any character set (this project required the extended Latin Unicode alphabet). A
-			limitation of Transkribus is the intensive core text necessary before the computer-driven handwriting
-			analysis is viable. There was insufficient text in the manuscript to allow me to use this feature.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Working with XML files</h5>
-		<p>
-			The major caveat of using the Transkribus software was its output format. Transkribus outputs thousands of
-			lines of XML code containing a proprietary string format that represents the coordinates of each identified
-			element of text (including rubrication, position of lines of text, drop capitals, etc.). The string format
-			does not follow XML standards and therefore required a custom parser that detected the location information
-			of the various tags (indicating the important textual elements of the document) for it to be correctly
-			displayed on the website. However, this transcription when converted to HTML gave many errors and would have
-			required manually editing hundreds of lines of code to debug. So, I turned to the TEI output.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Working the TEI</h5>
-		<p>
-			Transkribus exports in several formats, including TEI (Text Encoding Initiative), PDF, and XML (Extensible
-			Markup Language). TEI guidelines, the ideal for many digital humanists, define and shape the XML format to
-			be compatible between digital humanities projects.<a href="#_ftn4"
-				name="_ftnref4"><sup><sup>[4]</sup></sup></a> The payload of this initiative is a vigorous tagging
-			system that documents and describes structural and textual elements of virtually any type of document.
-			Because the TEI has a large body of documentation on its robust tagging system, another custom parser was
-			created to convert the code to HTML in the hope that I would not have to manually debug the code. This
-			method indeed proved better than the first, and the parser successfully produced a workable HTML version of
-			the transcription for use on the website.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Creating the Website</h5>
-		<p>
-			In the early stages of this project, I conceptualized the website as being made with a web builder (e.i.
-			Wordpress, Wix) to save time and labour. However, several issues arose with these platforms that were
-			irreconcilable with my vision for the site. Chiefly, it was key that the website have an interactive
-			transcription portion. The exact functionality of it does not come out of the box in any website builders.
-			Therefore, the website had to be custom built. I wanted to be able to display the transcription and
-			facsimiles side by side in a way that the user can interact with the manuscript in a variety of ways.
-			Website builders do not offer this functionality, nor are you able to embed code necessary for it into a
-			website builder in both unpaid and paid options. The issue is that website builders do not give the user
-			access to its backend, and the interactive transcription demands that large amounts of images be hosted on a
-			server connected to the site. Furthermore, website builders come with a lot of extra functionality and
-			&ldquo;bulk&rdquo; that can be cumbersome. In the end, having full control of the website was the best way
-			to ensure the result I intended.
-		</p>
-		<p>
-			The website was created from scratch using node.js and a vanilla JavaScript, HTML, CSS front end. Styling
-			for
-			the website itself was handled with Bootstrap4. This provided a baseline in which to build the custom
-			styling for the website. To properly illustrate the structure and contents (rubrication, hierarchy of
-			structure) of the manuscript transcription, corresponding HTML attributes were added to the transcriptions
-			to style the various tags (e.i. rubrication, drop-capitals, and so on) with CSS. The hover-over feature that
-			expands abbreviations was done using JavaScript. The modal that appears when users access the interactive
-			transcription that displays basic usage instructions was added with Bootstrap4.
-		</p>
-		<p>&nbsp;</p>
-		<h5>Heroku</h5>
-		<p>
-			Heroku is a cloud application platform that allows users to manage their servers for free. The website had
-			to
-			be hosted and Heroku provides a server that hosts the site, the images, and the transcriptions. The
-			limitations of using the free Heroku service are that the server goes to sleep after thirty minutes of
-			inactivity (an approximate 5 sec delay) and there is a limit of 1000 hours available per month. However,
-			since only one app is running, this makes no difference as the website can be run continuously. Heroku is
-			also well documented and has a large community for support resources that can help newcomers to the tool and
-			developers to use the platform and troubleshoot problems as they arise.
-		</p>
-		<p>&nbsp;</p>
-		<h3>3.4 Conclusions</h3>
-		<p>
-			Digital projects are more of a process than a final product, and as such are constantly evolving. What I
-			have
-			done provides the foundations for further research and further questions. Chief among these are, where to go
-			from here?
-		</p>
-		<p>Ideally, the next steps for this project would be to:</p>
-		<ul>
-			<li>Crowdsource the musical notation for this codex. Having no musical experience, I made the decision not
-				to attempt a transcription of the musical notation found in this chant manuscript. A logical next step
-				for this project would therefore be a transcription of the manuscript&rsquo;s plainchant notation and
-				subsequent integration into the Cantus database.</li>
-			<li>Integrate manuscript (including musical notation) into the Cantus database.</li>
-		</ul>
-		<p>&nbsp;</p>
-		<h3>End Notes</h3>
-		<hr />
-		<p><a href="#_ftnref1" name="_ftn1"><sup><sup>[1]</sup></sup></a> &ldquo;Types of Editions&rdquo;<em> Harvard's
-				Geoffrey Chaucer Website</em> (2020, Harvard University).
-			Accessed March 26, 2020. https://chaucer.fas.harvard.edu/types-editions#criticaledition."
-		</p>
-		<p><a href="#_ftnref2" name="_ftn2"><sup><sup>[2]</sup></sup></a> <a
-				href="http://cantus.uwaterloo.ca/">http://cantus.uwaterloo.ca/</a></p>
-		<p><a href="#_ftnref3" name="_ftn3"><sup><sup>[3]</sup></sup></a> Unless indicated as unidentified.</p>
-		<p><a href="#_ftnref4" name="_ftn4"><sup><sup>[4]</sup></sup></a> &ldquo;TEI: Guidelines&rdquo;, <em>TEI: Text
-				Encoding Initiative</em>. (October 2007, TEI Consortium). https://tei-c.org/guidelines/</p>
-		<p>&nbsp;</p>
+		<div class="px-5">
+			<h1 class="top-heading">The Digital Edition</h1>
+			<hr />
+			<br />
+			<h3>How to read this edition</h3>
+			<p>
+				This transcription of the manuscript&rsquo;s text is a visual reproduction, and a diplomatic edition. In
+				this
+				digital edition, I have placed the images of each manuscript page on the left hand side. On the right
+				side,
+				I offer a transcription which does not regularize or modernize the Latin, but rather retains scribal
+				mistakes, abbreviated characters, and punctuation as it exists in the manuscript. Given the unique
+				nature of
+				liturgical manuscripts, I did not seek to establish a comparative critical edition&mdash;i.e. The
+				product of
+				studying multiple manuscripts to construct a final version with the cumulative information from each
+				codex.
+				Rather, my edition, as it lives in the digital realm, seeks to let the user guide their interaction with
+				the
+				text. They can consult the original manuscript (in digitized images), they can consult a direct
+				transcription of the text alongside the images, they can also read the alternate text with abbreviations
+				unpacked and punctuation regularized. Given the potential for non-linear usage, I consider my edition a
+				hypertext edition, because the linked presentation of information achieves through the digital format
+				something unlike traditional print texts.<a href="#_ftn1" name="_ftnref1"><sup><sup>[1]</sup></sup></a>
+			</p>
+			<p>&nbsp;</p>
+			<h5>Privileging transcription over finished edition</h5>
+			<p>
+				The benefit of a transcription over a finished edition is that researchers can easily study the
+				palaeographical and codicological aspects of this manuscript through the non-linear use I have described
+				above. This decision was made because Carleton Antiphonary, like most liturgical manuscripts, is unique
+				in
+				its physical composition not only by the nature of handmade work but also because so many liturgical
+				manuscripts were distinct products of their time, location, and monastic tradition. The decision to make
+				the
+				transcription and edition digital was in large part a question of access, especially because Carleton
+				University, as a Canadian institution, must rely heavily on digital content for the study of European
+				manuscripts.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Digital Format</h5>
+			<p>
+				Because of the digital format, the text can be shown in numerous ways without compromising user
+				experience,
+				i.e. the reader does not need to constantly refer to the index and appendices at the back of a paper
+				copy to
+				make sense of the text. As you will see, in order to unpack an abbreviation or symbol as presented in
+				the
+				manuscript in the transcription, the user must simply hover over the word or symbol to have it unpacked
+				(with the exception of common usage symbols, as listed in table 7, below).
+			</p>
+			<p>&nbsp;</p>
+			<h5>Abbreviations</h5>
+			<p>
+				The table below outlines the abbreviations used throughout the Carleton Antiphonary and explains which
+				Unicode symbols were used to mimic the manuscript&rsquo;s forms. The expansion or modern equivalent are
+				also
+				given, with multiple possible expansions where applicable. The rightmost column displays whether the
+				abbreviations have been unpacked in the hypertext edition. Note that symbols that replace single
+				letterforms
+				(e.g. ꝛ, ꝺ, and Ꝫ) are not unpacked in this transcription but abbreviations with two or more letters are
+				unpacked to maintain clarity for the researcher while using this tool.
+			</p>
+			<p>&nbsp;</p>
+			<div class="resp-table">
+				<h6>Table 7: Abbreviations for the hypertext edition of the Carleton Antiphonary</h6>
+				<table class="table">
+					<thead style="text-align:left;">
+						<tr>
+							<td>
+								<span>Symbol</span>
+							</td>
+							<td>
+								<span>Type</span>
+							</td>
+							<td>
+								<span>Expansion or modern equivalent</span>
+							</td>
+							<td>
+								<span>Unpacked?</span>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<span>ꝛ</span>
+							</td>
+							<td>
+								<span>Latin Rotunda r</span>
+							</td>
+							<td>
+								<span>r</span>
+							</td>
+							<td>
+								<span>No</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ꝺ</span>
+							</td>
+							<td>
+								<span>Latin uncial d</span>
+							</td>
+							<td>
+								<span>d</span>
+							</td>
+							<td>
+								<span>No</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>Ꝟ</span>
+							</td>
+							<td>
+								<span>Latin capital V with stroke</span>
+							</td>
+							<td>
+								<span>Versus/ Versum</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ꝯ</span>
+							</td>
+							<td>
+								<span>Latin abbreviation for con</span>
+							</td>
+							<td>
+								<span>-con</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>Ꝫ</span>
+							</td>
+							<td>
+								<span>Rotunda m, oriented vertically</span>
+							</td>
+							<td>
+								<span>-m</span>
+							</td>
+							<td>
+								<span>No</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ꝑ</span>
+							</td>
+							<td>
+								<span>Latin abbreviation for pre</span>
+							</td>
+							<td>
+								<span>pre / per</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>qƺ</span>
+							</td>
+							<td>
+								<span>Latin abbreviation que</span>
+							</td>
+							<td>
+								<span>-que</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ꝓ</span>
+							</td>
+							<td>
+								<span>Rotunda pr</span>
+							</td>
+							<td>
+								<span>pr- / pro-</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ꞅ</span>
+							</td>
+							<td>
+								<span>Long s</span>
+							</td>
+							<td>
+								<span>s</span>
+							</td>
+							<td>
+								<span>No</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ꝵ</span>
+							</td>
+							<td>
+								<span>Latin abbreviation rum</span>
+							</td>
+							<td>
+								<span>-rum</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ͻ</span>
+							</td>
+							<td>
+								<span>Latin inverted c</span>
+							</td>
+							<td>
+								<span>con-</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>ꝙ</span>
+							</td>
+							<td>
+								<span>Latin que</span>
+							</td>
+							<td>
+								<span>que</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>xp</span>
+							</td>
+							<td>
+								<span>Chi rho</span>
+							</td>
+							<td>
+								<span>Chr-</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>⁊</span>
+							</td>
+							<td>
+								<span>Tironian &lsquo;et&rsquo;</span>
+							</td>
+							<td>
+								<span>et</span>
+							</td>
+							<td>
+								<span>Yes</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<p>&nbsp;</p>
+			<h5>Image files</h5>
+			<p>
+				The images found on the website were originally produced in TIFF, which were far too large
+				(approximately 5
+				-
+				6 Mi each) even for modern web standards. From a web-friendly point of view, the images had to be
+				cropped
+				and resized to allow for quick load times on the website. Although the TIFF files would have provided
+				extremely clear images for the scrutiny of minute details of the manuscript that in-depth manuscript
+				study
+				often demands, this decision came from a user experience (UX) stand-point to ensure compatibility with
+				the
+				widest range of browsers. That being said, the images are still high-quality (362 KB, 685 x 923) and
+				useful
+				for study. Furthermore, they are available for download so scholars may quickly and frequently access
+				them.
+			</p>
+			<p>
+				These images were taken with a digital
+				camera, (Canon EOS REBEL T5i) with less than ideal lighting, but in future we hope to produce scans of
+				the
+				manuscript. Unfortunately, we did not have access to a large enough scanner at the time of this project.
+				This presented unique challenges because the orientation, lighting, and dimensions of each image were
+				distinct. In other words, each of the 148 original images would have to be manually manipulated.
+				Therefore,
+				the batch image processor IrfanView, a freeware (proprietary but free to use) software for Windows
+				users,
+				was used to resize the images to a standard size. This allowed the website to display the folios in a
+				streamline and consistent fashion, giving the reader a book-like experience despite the vastly different
+				sizes and orientation of the original images. As you will see, the result is not perfect, but provides a
+				far
+				more attractive product in the final version.
+			</p>
+			<p>&nbsp;</p>
+			<h3>3.2 Web Edition vs Paper Version</h3>
+			<p>
+				When I was first introduced to the Carleton Antiphonary in 2016 Carleton University&rsquo;s Archives and
+				Research Collections had not yet digitally catalogued any of their medieval materials, nor do they exist
+				in
+				the library's catalogue. For researchers, it was as if the manuscript did not exist. This project sought
+				to
+				address this problem by creating an online edition for the codex, circumventing the issues with access
+				intrinsic to the printed edition. The main issue that was apparent to me was access to the edition. It
+				could
+				be written in printed or PDF format and lay hidden in a university&rsquo;s catalogue, where researchers
+				from
+				both Carleton and elsewhere may never know of its existence, closing the initial circle that I sought to
+				address. But a digital project, connected to a popular public database such as the Cantus Database,
+				would
+				have more visibility and would contribute to the mission of bringing this manuscript to light.<sup> <a
+						href="#_ftn2" name="_ftnref2"><sup>[2]</sup></a></sup>
+			</p>
+			<p>&nbsp;</p>
+			<h5>Broader Access</h5>
+			<p>
+				Some of these fundamental issues are that the commentary and glossary are usually separate from the
+				transcription, segregated to the end of the paperback, often rendering it cumbersome for reference.
+				Furthermore, a printed work must be produced, published, and distributed before it is accessible to
+				scholars. Electronic editions, however, change this process &ndash; making editions not a product but a
+				process that can be published online while in progress to allow other scholars to make use of the work
+				and
+				possibly to contribute to it. In essence, once the work is online and accessible (usually through an
+				institution) it is catalogued and therefore referenceable, unlike projects which are left to languish
+				gathering dust within the shelves upon shelves of uncatalogued theses.
+			</p>
+			<p>
+				Scholars of medieval liturgy and codicology can know of the manuscript&rsquo;s existence and perhaps
+				reveal
+				some of its long-held secrets through this diplomatic edition. Found on this bespoke website created
+				with
+				the purpose of showcasing this manuscript in ways suited to its study as both object and text.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Cantus Index</h5>
+			<p>
+				Cantus is a manuscript database used to reference medieval and early modern Latin ecclesiastical
+				sources.
+				The
+				resource was created by the University of Waterloo and is managed collaboratively by Debra Lacoste
+				(University of Waterloo) and Jan Kol&aacute;ček (Charles University, Prague). It has nine major
+				databases
+				connected to it from across the globe and over 150 sources. Each source is indexed according to its
+				chants
+				and connected with any concordant chants from other sources. Each chant has a unique Cantus ID number
+				that
+				is used to reference the list of chants in the Cantus Index, a catalogue for the Cantus Database. In the
+				Manuscript Reading (Ms spelling) transcription I have identified each segment of the manuscript by the
+				appropriate Cantus ID (see Appendices).<a href="#_ftn3" name="_ftnref3"><sup><sup>[3]</sup></sup></a>
+				This
+				allows researchers to quickly analyse the various parts of the manuscript and find contextual data for
+				that
+				particular segment. Cantus provides details such as associated feast days, genre, position in office or
+				mass, and a list of the concordances for each chant. Users may further research by perusing the hundreds
+				of
+				manuscript holdings digitally uploaded by institutions onto Cantus Database through the identifiers.
+				Interconnectivity with scholarly platforms such as Cantus which have already made waves in the digital
+				realm
+				is fundamental to this project. It allows the website to be both accessible as a website and flexible as
+				a
+				tool to meet the growing demands of modern scholarship.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Open Source</h5>
+			<p>
+				This project embraces the idea of collaboration and transparency in the digital realm and builds upon
+				the
+				developments of digital academics in the field of manuscript studies. That is why all stages of this
+				project
+				were accomplished using largely open source and free to use software. Furthermore, all the code purpose
+				written for this project is available to others to use and modify for their own future projects via
+				Github.
+			</p>
+			<p>&nbsp;</p>
+			<h3>3.3 Stages of Production</h3>
+			<p>
+				In order to illustrate the process of creating a born-digital manuscript edition, I provided below a
+				roadmap
+				for my project. I discuss the methods and guidelines I consulted, and I reflect on the limitations and
+				advantages of the various software and platforms I used. For more information on editorial decisions I
+				made
+				please see <em>how to read this edition</em>.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Using Transkribus</h5>
+			<p>
+				Before I could begin to pull my research into a cohesive place, I needed a workable transcription of the
+				manuscript. In order to create a digital transcription of the manuscript, I needed a robust tool that
+				could
+				serve over 130 high quality images and would preferably be an open access (free to use) tool. Developers
+				at
+				the University of Innsbruck, Austria, had developed a tool, <em>Transkribus</em>, that met nearly all my
+				specifications. This tool automatically recognizes historical written and printed text and builds an
+				intuitive structure around textual elements to make transcription easier. Importantly, it hosts
+				users&rsquo;
+				images to the Transkribus server to create &ldquo;private collections&rdquo; that limit access to the
+				original user and those they chose to share their collection with. Moreover, the tool allows scholars to
+				write in any language using any character set (this project required the extended Latin Unicode
+				alphabet). A
+				limitation of Transkribus is the intensive core text necessary before the computer-driven handwriting
+				analysis is viable. There was insufficient text in the manuscript to allow me to use this feature.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Working with XML files</h5>
+			<p>
+				The major caveat of using the Transkribus software was its output format. Transkribus outputs thousands
+				of
+				lines of XML code containing a proprietary string format that represents the coordinates of each
+				identified
+				element of text (including rubrication, position of lines of text, drop capitals, etc.). The string
+				format
+				does not follow XML standards and therefore required a custom parser that detected the location
+				information
+				of the various tags (indicating the important textual elements of the document) for it to be correctly
+				displayed on the website. However, this transcription when converted to HTML gave many errors and would
+				have
+				required manually editing hundreds of lines of code to debug. So, I turned to the TEI output.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Working the TEI</h5>
+			<p>
+				Transkribus exports in several formats, including TEI (Text Encoding Initiative), PDF, and XML
+				(Extensible
+				Markup Language). TEI guidelines, the ideal for many digital humanists, define and shape the XML format
+				to
+				be compatible between digital humanities projects.<a href="#_ftn4"
+					name="_ftnref4"><sup><sup>[4]</sup></sup></a> The payload of this initiative is a vigorous tagging
+				system that documents and describes structural and textual elements of virtually any type of document.
+				Because the TEI has a large body of documentation on its robust tagging system, another custom parser
+				was
+				created to convert the code to HTML in the hope that I would not have to manually debug the code. This
+				method indeed proved better than the first, and the parser successfully produced a workable HTML version
+				of
+				the transcription for use on the website.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Creating the Website</h5>
+			<p>
+				In the early stages of this project, I conceptualized the website as being made with a web builder (e.i.
+				Wordpress, Wix) to save time and labour. However, several issues arose with these platforms that were
+				irreconcilable with my vision for the site. Chiefly, it was key that the website have an interactive
+				transcription portion. The exact functionality of it does not come out of the box in any website
+				builders.
+				Therefore, the website had to be custom built. I wanted to be able to display the transcription and
+				facsimiles side by side in a way that the user can interact with the manuscript in a variety of ways.
+				Website builders do not offer this functionality, nor are you able to embed code necessary for it into a
+				website builder in both unpaid and paid options. The issue is that website builders do not give the user
+				access to its backend, and the interactive transcription demands that large amounts of images be hosted
+				on a
+				server connected to the site. Furthermore, website builders come with a lot of extra functionality and
+				&ldquo;bulk&rdquo; that can be cumbersome. In the end, having full control of the website was the best
+				way
+				to ensure the result I intended.
+			</p>
+			<p>
+				The website was created from scratch using node.js and a vanilla JavaScript, HTML, CSS front end.
+				Styling
+				for
+				the website itself was handled with Bootstrap4. This provided a baseline in which to build the custom
+				styling for the website. To properly illustrate the structure and contents (rubrication, hierarchy of
+				structure) of the manuscript transcription, corresponding HTML attributes were added to the
+				transcriptions
+				to style the various tags (e.i. rubrication, drop-capitals, and so on) with CSS. The hover-over feature
+				that
+				expands abbreviations was done using JavaScript. The modal that appears when users access the
+				interactive
+				transcription that displays basic usage instructions was added with Bootstrap4.
+			</p>
+			<p>&nbsp;</p>
+			<h5>Heroku</h5>
+			<p>
+				Heroku is a cloud application platform that allows users to manage their servers for free. The website
+				had
+				to
+				be hosted and Heroku provides a server that hosts the site, the images, and the transcriptions. The
+				limitations of using the free Heroku service are that the server goes to sleep after thirty minutes of
+				inactivity (an approximate 5 sec delay) and there is a limit of 1000 hours available per month. However,
+				since only one app is running, this makes no difference as the website can be run continuously. Heroku
+				is
+				also well documented and has a large community for support resources that can help newcomers to the tool
+				and
+				developers to use the platform and troubleshoot problems as they arise.
+			</p>
+			<p>&nbsp;</p>
+			<h3>3.4 Conclusions</h3>
+			<hr />
+			<br />
+			<p>
+				Digital projects are more of a process than a final product, and as such are constantly evolving. What I
+				have
+				done provides the foundations for further research and further questions. Chief among these are, where
+				to go
+				from here?
+			</p>
+			<p>Ideally, the next steps for this project would be to:</p>
+			<ul>
+				<li>Crowdsource the musical notation for this codex. Having no musical experience, I made the decision
+					not
+					to attempt a transcription of the musical notation found in this chant manuscript. A logical next
+					step
+					for this project would therefore be a transcription of the manuscript&rsquo;s plainchant notation
+					and
+					subsequent integration into the Cantus database.</li>
+				<li>Integrate manuscript (including musical notation) into the Cantus database.</li>
+			</ul>
+			<p>&nbsp;</p>
+			<h3>End Notes</h3>
+			<hr />
+			<br />
+			<p><a href="#_ftnref1" name="_ftn1"><sup><sup>[1]</sup></sup></a> &ldquo;Types of Editions&rdquo;<em>
+					Harvard's
+					Geoffrey Chaucer Website</em> (2020, Harvard University).
+				Accessed March 26, 2020. https://chaucer.fas.harvard.edu/types-editions#criticaledition."
+			</p>
+			<p><a href="#_ftnref2" name="_ftn2"><sup><sup>[2]</sup></sup></a> <a
+					href="http://cantus.uwaterloo.ca/">http://cantus.uwaterloo.ca/</a></p>
+			<p><a href="#_ftnref3" name="_ftn3"><sup><sup>[3]</sup></sup></a> Unless indicated as unidentified.</p>
+			<p><a href="#_ftnref4" name="_ftn4"><sup><sup>[4]</sup></sup></a> &ldquo;TEI: Guidelines&rdquo;, <em>TEI:
+					Text
+					Encoding Initiative</em>. (October 2007, TEI Consortium). https://tei-c.org/guidelines/</p>
+			<p>&nbsp;</p>
 
+		</div>
 	</div>
 </body>
 

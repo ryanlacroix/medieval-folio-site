@@ -44,9 +44,9 @@ td .image-caption {
   padding-bottom:0px;
 }
 
-.figure-intext {
+/*.figure-intext {
   margin-top: 50px;
-}
+}*/
 .resp-table {
   margin-bottom:40px!important;
 }
@@ -182,11 +182,37 @@ body {
   text-align: center;
   line-height: 2em;
 }
+@media (min-width: 1px) {
+  #img-cont {
+    pointer-events: none;
+  }
+}
+@media (min-width: 576px) {
+  #img-cont {
+    pointer-events: auto;
+  }
+}
+
+#transcr-main-content {
+  padding-top:20px;
+}
 
 .manu-btns {
   background-color: rgba(121, 114, 104, 1)!important;
   border-color: rgba(121, 114, 104, 1)!important;
 }
+
+@media (min-width: 1px) {
+  #prev-next-buttons {
+    margin-top:0px;
+  }
+}
+@media (min-width: 576px) {
+  #prev-next-buttons {
+    margin-top:auto;
+  }
+}
+
 
 /* Make the nav bar a little sleeker */
 .nav-item {

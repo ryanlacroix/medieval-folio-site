@@ -2,12 +2,13 @@
 <html class="no-js" lang="">
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap" rel="stylesheet">
   <meta charset="utf-8">
-  <title>Carleton Manuscript Exhibit</title>
+  <title>Carleton Antiphonary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" href="LETTER-A-ARC_manuscript_1_45R.png">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/styles.css">
   <meta name="theme-color" content="#fafafa">
@@ -27,34 +28,55 @@
 </head>
 
 <body>
+  <nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar">
+    <!-- bg-dark-->
+    <a class="navbar-brand my-auto" href="index.html" style="display:flex;">
+      <img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45"
+        class="d-inline-block rounded icon-raised" alt="">
+      <span id="page-title"><span class="page-title-first-letter">C</span>arleton <span class="page-title-first-letter">A</span>ntiphonary</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ml-auto">
+        <li><a class="nav-item nav-link active" href="home.html">Home</a></li>
+        <li class="dropdown dropdown-hover">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link">Manuscript <b
+              class="caret"></b></a>
 
-  <div class="container-sm">
-    
+          <div class="dropdown-menu dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item dropdown-item-nav" href="introduction.html">Introduction</a>
+            <a class="dropdown-item dropdown-item-nav" href="physicalDescription.html">Physical Description</a>
+            <a class="dropdown-item dropdown-item-nav" href="contents.html">Contents</a>
+            <a class="dropdown-item dropdown-item-nav" href="manuscript.html">Transcription</a>
+          </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-        <img src="/img/coin-logo.png" width="45" height="45" class="d-inline-block align-top" alt="">
-        Carleton Manuscript Exhibit</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="manuscript.html">Manuscript</a>
-          <a class="nav-item nav-link" href="about.html">About</a>
-          
-        </div>
-      </div>
-    </nav>
+        </li>
+        <li class="dropdown dropdown-hover">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-item nav-link">About <b class="caret"></b></a>
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <h3 class="my-3 mx-auto">404 - This page doesn't exist!</h3>
-        <p class="mx-auto">You might want to hit the back button on your browser.</p>
-      </div>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item dropdown-item-nav" href="edition.html">Edition</a>
+            <a class="dropdown-item dropdown-item-nav" href="notes.html">Notes</a>
+          </div>
+
+        </li>
+         
+      </ul>
     </div>
+  </nav>
+
+  <!-- Page content -->
+  <div class="container-sm px-5">
+    <div><img src="img/404.jpg" id="banner" class="w-75 my-5 mx-auto d-block" style="max-width:350px;"
+        alt="Manuscript open at first page" /></div>
+
+    <div class="px-5">
+      <div style="margin:auto;width:max-content"> <h2>404</h3></div>
+      <div style="margin:auto;width:max-content"> <br /> This page doesn't exist!</div>
     </div>
+  </div>
   </div>
   </div>
 
