@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
 
 <head>
-
+  <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Transcription - Carleton Antiphonary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +34,7 @@
 <body>
   <nav class="navbar fixed-top navbar-expand-sm py-1 navbar-dark header-navbar">
     <!-- bg-dark-->
-    <a class="navbar-brand my-auto" href="#" style="display:flex;">
+    <a class="navbar-brand my-auto" href="index.html" style="display:flex;">
       <img src="/img/LETTER-A-ARC_manuscript_1_45R.png" width="45" height="45"
         class="d-inline-block rounded icon-raised" alt="">
       <span id="page-title"><span class="page-title-first-letter">C</span>arleton <span class="page-title-first-letter">A</span>ntiphonary</span></a>
@@ -50,10 +50,10 @@
               class="caret"></b></a>
 
           <div class="dropdown-menu dropdown-menu-hover" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item dropdown-item-nav" href="manuscript.html">Transcription<span class="sr-only">(current)</span></a>
             <a class="dropdown-item dropdown-item-nav" href="introduction.html">Introduction</a>
             <a class="dropdown-item dropdown-item-nav" href="physicalDescription.html">Physical Description</a>
             <a class="dropdown-item dropdown-item-nav" href="contents.html">Contents</a>
+            <a class="dropdown-item dropdown-item-nav" href="manuscript.html">Transcription<span class="sr-only">(current)</span></a>
           </div>
 
         </li>
@@ -88,7 +88,7 @@
         <div id="transc-cont" style="display:flex;align-items:center;min-height:400px;justify-content: center;"></div>
 
         <!-- Prev and Next page buttons -->
-        <div class="row" style="margin-top:auto;">
+        <div class="row" id="prev-next-buttons" style="flex-wrap: nowrap;">
           <div  class="col-sm-4 text-dark" style="display:flex;justify-content:flex-end;"><button id="prev-button" type="button"
               onclick="prevPage();" class="btn btn-primary my-3 manu-btns">Back</button></div>
           <div  class="col-sm-4 lead dropup" style="display:flex;justify-content:center;align-items:center;"><!--Page 1V-->
@@ -119,7 +119,7 @@
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
               class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="myModalLabel">Folio view</h4>
+          <h4  id="myModalLabel">Folio view</h4>
         </div>
         <div class="modal-body manu-img-modal">
           <img src="" id="imagepreview"> <!-- style="width: 400px; height: 264px;" -->
