@@ -86,7 +86,7 @@
 			<p>
 				This transcription of the manuscript&rsquo;s text is a visual reproduction, and a diplomatic edition. In
 				this
-				digital edition, I have placed the images of each manuscript page on the left hand side. On the right
+				digital edition, I have placed the images of each folium (manuscript page) on the left hand side. On the right
 				side,
 				I offer a transcription which does not regularize or modernize the Latin, but rather retains scribal
 				mistakes, abbreviated characters, and punctuation as it exists in the manuscript. Given the unique
@@ -104,9 +104,9 @@
 				something unlike traditional print texts.<a href="#_ftn1" name="_ftnref1"><sup><sup>[1]</sup></sup></a>
 			</p>
 			<p>&nbsp;</p>
-			<h5>Privileging transcription over finished edition</h5>
+			<h5>Privileging transcription over critical edition</h5>
 			<p>
-				The benefit of a transcription over a finished edition is that researchers can easily study the
+				The benefit of a transcription over a polished edition is that researchers can easily study the
 				palaeographical and codicological aspects of this manuscript through the non-linear use I have described
 				above. This decision was made because Carleton Antiphonary, like most liturgical manuscripts, is unique
 				in
@@ -124,7 +124,7 @@
 				experience,
 				i.e. the reader does not need to constantly refer to the index and appendices at the back of a paper
 				copy to
-				make sense of the text. As you will see, in order to unpack an abbreviation or symbol as presented in
+				make sense of the text. As you will see, in order to unpack an abbreviation or Unicode symbol as presented in
 				the
 				manuscript in the transcription, the user must simply hover over the word or symbol to have it unpacked
 				(with the exception of common usage symbols, as listed in table 7, below).
@@ -409,7 +409,8 @@
 				be written in printed or PDF format and lay hidden in a university&rsquo;s catalogue, where researchers
 				from
 				both Carleton and elsewhere may never know of its existence, closing the initial circle that I sought to
-				address. But a digital project, connected to a popular public database such as the Cantus Database,
+				address. But a digital project, connected to a popular public database such as the 
+				<a href="http://cantus.uwaterloo.ca/">Cantus Database</a>,
 				would
 				have more visibility and would contribute to the mission of bringing this manuscript to light.<sup> <a
 						href="#_ftn2" name="_ftnref2"><sup>[2]</sup></a></sup>
@@ -417,13 +418,13 @@
 			<p>&nbsp;</p>
 			<h5>Broader Access</h5>
 			<p>
-				Some of these fundamental issues are that the commentary and glossary are usually separate from the
+				Some of the fundamental access issues are that the commentary and glossary are usually separate from the
 				transcription, segregated to the end of the paperback, often rendering it cumbersome for reference.
 				Furthermore, a printed work must be produced, published, and distributed before it is accessible to
 				scholars. Electronic editions, however, change this process &ndash; making editions not a product but a
 				process that can be published online while in progress to allow other scholars to make use of the work
 				and
-				possibly to contribute to it. In essence, once the work is online and accessible (usually through an
+				evem to contribute to it. In essence, once the work is online and accessible (usually through an
 				institution) it is catalogued and therefore referenceable, unlike projects which are left to languish
 				gathering dust within the shelves upon shelves of uncatalogued theses.
 			</p>
@@ -471,8 +472,8 @@
 				developments of digital academics in the field of manuscript studies. That is why all stages of this
 				project
 				were accomplished using largely open source and free to use software. Furthermore, all the code purpose
-				written for this project is available to others to use and modify for their own future projects via
-				Github.
+				written for this project is available to others to use and modify for their own future projects via.
+				<a href="https://github.com/kateBrasseur/medieval-folio-site">Github</a>.
 			</p>
 			<p>&nbsp;</p>
 			<h3>3.3 Stages of Production</h3>
@@ -531,7 +532,7 @@
 				system that documents and describes structural and textual elements of virtually any type of document.
 				Because the TEI has a large body of documentation on its robust tagging system, another custom parser
 				was
-				created to convert the code to HTML in the hope that I would not have to manually debug the code. This
+				written by developer <a href="https://github.com/ryanlacroix">Ryan Lacroix</a> to convert the code to HTML in the hope that I would not have to manually debug the code. This
 				method indeed proved better than the first, and the parser successfully produced a workable HTML version
 				of
 				the transcription for use on the website.
@@ -556,7 +557,7 @@
 				to ensure the result I intended.
 			</p>
 			<p>
-				The website was created from scratch using node.js and a vanilla JavaScript, HTML, CSS front end.
+				The website was created collaboratively (Lacroix, Brasseur) from scratch using node.js and a vanilla JavaScript, HTML, CSS front end.
 				Styling
 				for
 				the website itself was handled with Bootstrap4. This provided a baseline in which to build the custom
@@ -577,8 +578,8 @@
 				to
 				be hosted and Heroku provides a server that hosts the site, the images, and the transcriptions. The
 				limitations of using the free Heroku service are that the server goes to sleep after thirty minutes of
-				inactivity (an approximate 5 sec delay) and there is a limit of 1000 hours available per month. However,
-				since only one app is running, this makes no difference as the website can be run continuously. Heroku
+				inactivity (an approximate 5 sec delay upon startup) and there is a limit of 1000 hours available per month. However,
+				since only one app is running, this makes little difference as the website can be run continuously. Heroku
 				is
 				also well documented and has a large community for support resources that can help newcomers to the tool
 				and
